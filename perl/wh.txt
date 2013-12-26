@@ -1,0 +1,26 @@
+mviglion pts/7    199.27.144.116   Fri14    0.00s  0.00s  0.00s /usr/sbin/shell
+dbzhalav pts/26   c83-250-57-234.b 15:33   25:07   0.07s  0.06s mysql --socket=
+wanda    pts/46   c-50-148-161-26. 12:33    5:12   0.02s  0.00s /bin/bash /soft
+estetson pts/49   199.27.144.116   10Nov13  0.00s  0.00s  0.00s /usr/sbin/shell
+jelgueta pts/59   200.73.35.82     16:45    4:28   0.13s  0.12s vim create_clas
+vdell    pts/74   199.27.144.116   16:46   18:53   0.01s  0.01s -bash
+beth     pts/15   c-67-160-88-23.h 15:21   42.00s  0.07s  0.07s -bash
+msummers pts/81   199.27.144.116   16:28   33:25   0.00s  0.00s -bash
+pdjambaz pts/87   199.27.144.116   16:08    5:00   0.03s  0.03s -bash
+cyereazt pts/91   199.27.144.116   17:03    0.00s  0.05s  0.04s w -h
+dsutton  pts/89   199.27.144.116   24Sep13 68days  0.01s  0.01s /users/mperry2/
+bthanawa pts/82   199.27.144.116   16:59   32.00s  0.00s  0.00s -bash
+mpayne1  pts/48   199.27.144.116   16:55    6:16   0.00s  0.00s -bash
+vdell    pts/47   199.27.144.116   16:56    8:46   0.01s  0.01s -bash
+jurbanyi pts/113  c83-254-147-80.b 16:28   37:27   0.01s  0.01s -bash
+jurbanyi pts/124  c83-254-147-80.b 16:19   44:28   0.03s  0.03s -bash
+ewells   pts/125  :pts/152:S.0     15:03    1:58m  0.02s  0.00s /bin/bash /soft
+ewells   pts/129  :pts/152:S.1     15:03    2:02m  0.00s  0.00s /bin/bash /soft
+gwalker  pts/130  cold.local.usera 15Nov13 17days  0.01s  0.00s sftp gwalker-m0
+butson   pts/139  50-0-76-38.dsl.d 15:56    1:09m  0.04s  0.02s sshd: butson [p
+ewells   pts/134  :pts/152:S.2     15:03    2:02m  0.00s  0.00s /bin/bash /soft
+ewells   pts/155  :pts/152:S.3     15:03    2:02m  0.01s  0.00s /bin/bash /soft
+pszwed   pts/182  ellipse.oreillys 13:12    3:47m  0.08s  0.05s python3
+dkeen    pts/189  cdkeen.noc.sonic 20Nov13  3:16m  3.39s  3.38s screen
+dkeen    pts/193  :pts/189:S.1     20Nov13  3:16m  0.48s  0.48s /bin/bash
+dkeen    pts/192  :pts/189:S.0     20Nov13  3:21m  1.03s  1.03s /bin/bash

@@ -1,0 +1,13 @@
+Go ahead and enter some text. Create a couple of lines of text by pressing Enter to put your cursor on a new line. 
+
+
+If you type test a line that's longer than your window is wide, the cursor will auto-wrap to the next line in the window, but this does not equate to a new line in the file. We;ll discuss that in greater detail later. 
+
+
+When you're happy with what you've written and you wnat to save the file, it's time to switch back to command mode. 
+
+Press Esc; -- INSERT -- will disappear from the lower-left corner. This indicates that you have entered command mode. 
+
+Type :wq and :wq will appear in the lower-left corner. 
+
+Finally, press Enter to write and quite. Here's an outline of some of these operations.

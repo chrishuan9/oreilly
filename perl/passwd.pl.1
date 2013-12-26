@@ -1,0 +1,19 @@
+#!/usr/local/bin/perl
+#
+open(FILE,"/etc/passwd");
+@lines = <FILE>;
+close(FILE);
+
+foreach $line (@lines){
+	@fields = split(/:/,$line);
+	#print "$fields[0]\n";
+	chomp(@fields);
+	push(@users,$fields[0]);
+	@rfields = reverse(@fields);
+	$newline = join(":",@rfields);
+	print "$newline\n";
+}
+
+foreach $user (sort(@users)){
+	print "$user\n";
+}
