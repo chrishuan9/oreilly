@@ -6,4 +6,4 @@ vcount = 0
 for c in s:
     if c in "aeiouAEIOU":
         vcount += 1
-    print("C is ", c, "; Vowel count:", vcount);
+print("Vowel count:", vcount);
