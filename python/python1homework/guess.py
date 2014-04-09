@@ -7,6 +7,7 @@ it should report whether the guess was higher or lower than the secret. If the u
 the loop should terminate. The loop should also keep a count of the user's guesses, and should terminate if the user
 makes five incorrect guesses. After the loop is over, the program should print a message if the user guessed the
 number correctly."""
+#random — Generate pseudo-random numbers, should not be used for security purposes
 from random import randrange
 
 secret = randrange(1, 20)  #Integer from 1 to 20
