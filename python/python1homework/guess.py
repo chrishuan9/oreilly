@@ -20,9 +20,9 @@ while (not secretFound and attempt < 5):
     if guess == secret:
         secretFound = True
     elif guess < secret:
-        print("Guess lower")
-    elif guess > secret:
         print("Guess higher")
+    elif guess > secret:
+        print("Guess lower")
 if secretFound:
     print("Correct! Well done, the number was", guess)
 else:
