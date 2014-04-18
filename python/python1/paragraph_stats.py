@@ -9,6 +9,7 @@ can long endure. We are met ona great battle-field of that war. We havecome to d
 as a final resting place for thosewho here gave their lives that thatnation might live. It is altogetherfitting
 and proper that we should do this."""
 
+lengthct = [0] * 20  # a list of 20 zeroes
 charct = len(gettysburg)
 
 lines = gettysburg.split("\n")
@@ -18,5 +19,10 @@ wordct = 0
 for line in lines:
     words = line.split()
     wordct += len(words)
+    for word in words:
+        lengthct[len(word)] += 1
 
 print("The text contains", linect, "lines,", wordct, "words, and", charct, "characters.")
+for i, ct in enumerate(lengthct):
+    if ct:
+        print("Length", i, ":", ct)
