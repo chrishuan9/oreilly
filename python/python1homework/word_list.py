@@ -13,6 +13,10 @@ def hasUpperCase(word):
         if character.isupper():
             return True
 
+def printWordList(list):
+    for word in list:
+        print(word)
+
 
 s = input("Enter your string: ")
 words = s.strip().split()
@@ -21,10 +25,11 @@ noUpperCaseList = []
 for word in words:
     if (hasUpperCase(word)):
         print("Adding '" + word + "' to uppercase list")
-        upperCaseList+=word
+        upperCaseList.append(word)
     else:
         print("Adding '" + word + "' to nouppercase list")
-        noUpperCaseList+=word
-print(upperCaseList)
-print(noUpperCaseList)
+        noUpperCaseList.append(word)
+
+printWordList(upperCaseList)
+printWordList(noUpperCaseList)
 
