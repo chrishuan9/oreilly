@@ -17,6 +17,8 @@ for punc in ",?;.":
     text = text.replace(punc, "")
 freq = {}
 for word in text.lower().split():
+    #uses the get() method with a default value of zero to retrieve the existing count,
+    #so if the word hasn't been seen before, the assignment inserts a value of one against the new key.
     freq[word] = freq.get(word,0)+1
 for word in sorted(freq.keys()):
     print(word, freq[word])
