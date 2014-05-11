@@ -4,6 +4,6 @@ __author__ = 'chris'
 """
 words1 = set(input("Sentence 1: ").lower().split())
 words2 = set(input("Sentence 2: ").lower().split())
-print("Words in both strings", words1 & words2)
-print("Words unique to setence 1: ", words1 - words2)
-print("Words unique to setence 2: ", words2 - words1)
+print("Words in both strings", sorted(words1 & words2))
+print("Words unique to setence 1: ", sorted(words1 - words2))
+print("Words unique to setence 2: ", sorted(words2 - words1))
