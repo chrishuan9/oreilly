@@ -11,6 +11,8 @@ And one for the dame,
 And one for the little boy
 Who lives down the lane."""
 
+#Python removes the punctuation to ensure that only words are present in the text.
+#"Baa" is not the same as "Baa," # (with a comma), so the punctuation must be removed
 for punc in ",?;.":
     text = text.replace(punc, "")
 print(text)
