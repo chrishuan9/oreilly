@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python1/word_matcher.py" afterPath="$PROJECT_DIR$/python1/word_matcher.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/word_frequency.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,16 +74,25 @@
       <file leaf-file-name="word_counter.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word_matcher.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="word_matcher.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/word_matcher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="61" selection-start="437" selection-end="437" vertical-scroll-proportion="0.28708133" vertical-offset="0" max-vertical-offset="418">
+            <state line="8" column="61" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word_frequency.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python1/word_frequency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="21" selection-start="205" selection-end="205" vertical-scroll-proportion="0.32296652" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -124,6 +134,8 @@
         <option value="$PROJECT_DIR$/python1homework/word_list.py" />
         <option value="$PROJECT_DIR$/python1/word_counter.py" />
         <option value="$PROJECT_DIR$/python1/word_matcher.py" />
+        <option value="$PROJECT_DIR$/word_frequency.py" />
+        <option value="$PROJECT_DIR$/python1/word_frequency.py" />
       </list>
     </option>
   </component>
@@ -261,8 +273,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python1homework" />
       <recent name="$PROJECT_DIR$/python1" />
+      <recent name="$PROJECT_DIR$/python1homework" />
     </key>
   </component>
   <component name="RunManager" selected="Python.word_matcher">
@@ -613,7 +625,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="731" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1080" height="530" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -625,7 +637,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.326284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.326284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -672,11 +684,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python1/check_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="73" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="465" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/vowel_counter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="30" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210" />
@@ -923,13 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-151068394/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4321" column="6" selection-start="142206" selection-end="142206" vertical-scroll-proportion="0.33280757" vertical-offset="64619" max-vertical-offset="88560">
@@ -939,7 +939,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/word_matcher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="61" selection-start="437" selection-end="437" vertical-scroll-proportion="0.28708133" vertical-offset="0" max-vertical-offset="418">
+        <state line="8" column="61" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/word_frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="205" selection-end="205" vertical-scroll-proportion="0.32296652" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
