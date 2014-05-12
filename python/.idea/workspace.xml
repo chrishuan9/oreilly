@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/pair_frequency.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python1/pair_frequency.py" afterPath="$PROJECT_DIR$/python1/pair_frequency.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,7 +101,7 @@
       <file leaf-file-name="pair_frequency.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="8" selection-start="845" selection-end="845" vertical-scroll-proportion="0.9240506" vertical-offset="55" max-vertical-offset="510">
+            <state line="23" column="9" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5063291" vertical-offset="145" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -969,7 +968,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="8" selection-start="845" selection-end="845" vertical-scroll-proportion="0.9240506" vertical-offset="55" max-vertical-offset="510">
+        <state line="23" column="9" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5063291" vertical-offset="145" max-vertical-offset="540">
           <folding />
         </state>
       </provider>

@@ -20,6 +20,8 @@ textwords = text.lower().split()
 firstword = textwords[0]
 for nextword in textwords[1:]:
     if firstword not in words:
+        #For each word in the input, we will keep a count of the number of times
+        #it was followed by each of the other words that immediately follow it in the text
         words[firstword] = {}
         words[firstword][nextword] = words[firstword].get(nextword, 0)+1
         firstword = nextword
