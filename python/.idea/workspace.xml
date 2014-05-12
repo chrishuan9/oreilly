@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python1/word_frequency.py" afterPath="$PROJECT_DIR$/python1/word_frequency.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/pair_frequency.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,10 +90,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word_frequency.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="word_frequency.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/word_frequency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="27" selection-start="817" selection-end="817" vertical-scroll-proportion="0.82535887" vertical-offset="0" max-vertical-offset="435">
+            <state line="23" column="27" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pair_frequency.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="8" selection-start="845" selection-end="845" vertical-scroll-proportion="0.9240506" vertical-offset="55" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -136,6 +146,7 @@
         <option value="$PROJECT_DIR$/python1/word_matcher.py" />
         <option value="$PROJECT_DIR$/word_frequency.py" />
         <option value="$PROJECT_DIR$/python1/word_frequency.py" />
+        <option value="$PROJECT_DIR$/python1/pair_frequency.py" />
       </list>
     </option>
   </component>
@@ -272,6 +283,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/python1" />
       <recent name="$PROJECT_DIR$/python1homework" />
@@ -684,11 +698,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python1/vowel_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/space_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="39" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225" />
@@ -953,7 +962,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/word_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="817" selection-end="817" vertical-scroll-proportion="0.82535887" vertical-offset="0" max-vertical-offset="435">
+        <state line="23" column="27" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="8" selection-start="845" selection-end="845" vertical-scroll-proportion="0.9240506" vertical-offset="55" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
