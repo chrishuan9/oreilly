@@ -38,10 +38,9 @@ d = {}
 while (not quitProgram):
     inputList = list(input("Enter text: ").lower().split())
     if not inputList:
-        print("empty input, quitting ...")
+        print("Finished")
         quitProgram = True
         break;
-    print("Non empty input")
     for word in inputList:
         oldSize = len(s)
         s.add(word)
@@ -49,5 +48,6 @@ while (not quitProgram):
         newSize = len(s)
         if newSize > oldSize:
             d[word] = newSize
-print(s)
-print(d)
+    #display list of words in dict along with their value
+    for w in d.keys():
+        print(w,d[w])
