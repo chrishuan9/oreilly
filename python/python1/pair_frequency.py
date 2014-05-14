@@ -22,6 +22,9 @@ for nextword in textwords[1:]:
     if firstword not in words:
         #For each word in the input, we will keep a count of the number of times
         #it was followed by each of the other words that immediately follow it in the text
+        #This involves keeping a dict for each word. The keys of this second dict will be the words
+        #that immediately follow the original word. The values will be
+        #the number of times that particular word followed the original word.
         words[firstword] = {}
     words[firstword][nextword] = words[firstword].get(nextword, 0)+1
     firstword = nextword

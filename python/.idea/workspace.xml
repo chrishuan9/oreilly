@@ -26,6 +26,7 @@
     <SUITE FILE_PATH="coverage/python$case_convert.coverage" NAME="case_convert Coverage Results" MODIFIED="1395096646024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$word_list.coverage" NAME="word_list Coverage Results" MODIFIED="1399627244609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$greeting.coverage" NAME="greeting Coverage Results" MODIFIED="1395352378050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$pair_frequency.coverage" NAME="pair_frequency Coverage Results" MODIFIED="1400096387594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$one_statement.coverage" NAME="one_statement Coverage Results" MODIFIED="1394877899588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$word_frequency.coverage" NAME="word_frequency Coverage Results" MODIFIED="1399831029613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$Lab4Quiz1.coverage" NAME="Lab4Quiz1 Coverage Results" MODIFIED="1396950243458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
@@ -83,7 +84,7 @@
       <file leaf-file-name="pair_frequency.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="822" selection-end="822" vertical-scroll-proportion="0.6052632" vertical-offset="122" max-vertical-offset="540">
+            <state line="27" column="29" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.6770335" vertical-offset="122" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -272,26 +273,7 @@
       <recent name="$PROJECT_DIR$/python1homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.word_frequency">
-    <configuration default="false" name="paragraph_stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/paragraph_stats.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.pair_frequency">
     <configuration default="false" name="word_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -363,6 +345,25 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/word_frequency.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pair_frequency" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/pair_frequency.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -519,19 +520,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.paragraph_stats" />
-      <item index="1" class="java.lang.String" itemvalue="Python.word_list" />
-      <item index="2" class="java.lang.String" itemvalue="Python.better_sentence_splitter" />
-      <item index="3" class="java.lang.String" itemvalue="Python.word_matcher" />
-      <item index="4" class="java.lang.String" itemvalue="Python.word_frequency" />
+      <item index="0" class="java.lang.String" itemvalue="Python.word_list" />
+      <item index="1" class="java.lang.String" itemvalue="Python.better_sentence_splitter" />
+      <item index="2" class="java.lang.String" itemvalue="Python.word_matcher" />
+      <item index="3" class="java.lang.String" itemvalue="Python.word_frequency" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pair_frequency" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.word_frequency" />
-        <item index="1" class="java.lang.String" itemvalue="Python.word_matcher" />
-        <item index="2" class="java.lang.String" itemvalue="Python.word_list" />
-        <item index="3" class="java.lang.String" itemvalue="Python.better_sentence_splitter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.paragraph_stats" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pair_frequency" />
+        <item index="1" class="java.lang.String" itemvalue="Python.word_frequency" />
+        <item index="2" class="java.lang.String" itemvalue="Python.word_matcher" />
+        <item index="3" class="java.lang.String" itemvalue="Python.word_list" />
+        <item index="4" class="java.lang.String" itemvalue="Python.better_sentence_splitter" />
       </list>
     </recent_temporary>
   </component>
@@ -950,7 +951,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="822" selection-end="822" vertical-scroll-proportion="0.6052632" vertical-offset="122" max-vertical-offset="540">
+        <state line="27" column="29" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.6770335" vertical-offset="122" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
