@@ -44,24 +44,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="better_sentence_splitter.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/better_sentence_splitter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="15" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paragraph_stats.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/paragraph_stats.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="2" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="word_list.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1homework/word_list.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,7 +83,7 @@
       <file leaf-file-name="pair_frequency.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="9" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5063291" vertical-offset="145" max-vertical-offset="540">
+            <state line="25" column="4" selection-start="822" selection-end="822" vertical-scroll-proportion="0.6052632" vertical-offset="122" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -968,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="706" selection-end="706" vertical-scroll-proportion="0.5063291" vertical-offset="145" max-vertical-offset="540">
+        <state line="25" column="4" selection-start="822" selection-end="822" vertical-scroll-proportion="0.6052632" vertical-offset="122" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
