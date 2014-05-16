@@ -4,7 +4,7 @@ i = 42
 r = 31.97
 c = 2.2 + 3.3j
 s = "String"
-lst = {"zero", "one", "two", "three", "four", "five"}
+lst = ["zero", "one", "two", "three", "four", "five"]
 dct = {"Jim": "Dandy", "Stella": "DuBois", 1: "integer"}
 while True:
     fmt = input("Format string: ")
