@@ -1,7 +1,6 @@
 __author__ = 'chris'
-# Lab7, Objective 1
 """
-Objective 1:
+Lab 7, Objective 1:
 This project tests your ability to handle string formatting.
 
 Create a new Python source file named multuple.py.
