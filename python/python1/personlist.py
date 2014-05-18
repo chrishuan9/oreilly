@@ -20,3 +20,8 @@ data = [
 # 'd': Decimal Integer. Outputs the number in base 10.
 for row in data:
     print("{0[0]:<12s} {0[1]:4d} {0[2]:4d}".format(row))
+# While this program works, the correspondence between related data items seems a little obscure.
+# the program as shown below to extract the individual items from the row and pass them as separate
+# arguments to the format() call:
+for name, age, weight in data:
+    print("{0:<12s} {1:4d} {2:4d}".format(name, age, weight))
