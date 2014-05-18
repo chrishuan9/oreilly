@@ -30,3 +30,6 @@ for name, age, weight in data:
 # indication and increase the field width:
 for name, age, weight in data:
     print("{0:.<30s} {1:4d} {2:4d}".format(name, age, weight))
+
+for name, age, weight in data:
+    print("{0:.^30s} {1:4d} {2:4d}".format(name, age, weight))
