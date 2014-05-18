@@ -25,3 +25,8 @@ for row in data:
 # arguments to the format() call:
 for name, age, weight in data:
     print("{0:<12s} {1:4d} {2:4d}".format(name, age, weight))
+# Okay, now let's make the name field wider. We'll use the period as a pad character to help the reader follow the line
+# from the name to the age and weight. Modify the program a third time—add a padding character before the alignment
+# indication and increase the field width:
+for name, age, weight in data:
+    print("{0:.<30s} {1:4d} {2:4d}".format(name, age, weight))
