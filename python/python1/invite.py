@@ -16,13 +16,15 @@ while True:
         invites[name] = status_1
     elif inp == 'list':
         for name, status in invites.items():
-            print('%s (%s)' % (name, status))
+            #print('%s (%s)' % (name, status))
+            print("{0} ({1})".format(name,status))
     elif inp == 'approve':
         for name in invites:
             if invites[name] == status_1:
                 break
         else:
-            print('There must be %s status invites. Please pick another option' % status_1)
+            #print('There must be %s status invites. Please pick another option' % status_1)
+            print('There must be {0} status invites. Please pick another option'.format(status_1))
             continue
         while True:
             print('Please enter a valid name from the list below')
@@ -36,7 +38,8 @@ while True:
                 break # user changed mind about approving
             if name in unapproved:
                 invites[name] = status_2
-                print('%s %s' % (name, status_2))
+                #print('%s %s' % (name, status_2))
+                print('{0} {1}'.format(name,status_2))
                 break
     elif inp == 'delete':
         if not invites:
@@ -45,17 +48,20 @@ while True:
         while True:
             print('Please enter a valid name from the list below')
             for name, status in invites.items():
+                #print("{0} ({1})".format(name,status))
                 print('%s (%s)' % (name, status))
             name = input('Enter name:')
             if not name:
                 break
             if name in invites:
                 del invites[name]
-                print('%s deleted' % name)
+                #print('%s deleted' % name)
+                print('{0} deleted'.format(name))
                 break
     elif inp == 'quit':
         print('Quitting invites')
         print('The final invitation list follows')
         for name, status in invites.items():
-            print('%s (%s)' % (name, status))
+            #print('%s (%s)' % (name, status))
+            print("{0} ({1})".format(name,status))
         break
