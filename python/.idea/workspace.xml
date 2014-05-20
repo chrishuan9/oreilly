@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/better_valid_input.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/invite.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -80,10 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="better_valid_input.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="better_valid_input.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/better_valid_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="256" selection-end="256" vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="417">
+            <state line="6" column="2" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invite.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python1/invite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="24" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.5323741" vertical-offset="513" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -144,6 +153,7 @@
         <option value="$PROJECT_DIR$/python1/factorial.py" />
         <option value="$PROJECT_DIR$/python1/valid_input.py" />
         <option value="$PROJECT_DIR$/python1/better_valid_input.py" />
+        <option value="$PROJECT_DIR$/python1/invite.py" />
       </list>
     </option>
   </component>
@@ -700,11 +710,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python1/vowel_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="121" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="210" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/space_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="39" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225" />
@@ -971,7 +976,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/better_valid_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="256" selection-end="256" vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="417">
+        <state line="6" column="2" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/invite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="24" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.5323741" vertical-offset="513" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
