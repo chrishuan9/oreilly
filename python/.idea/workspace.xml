@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python1/invite.py" afterPath="$PROJECT_DIR$/python1/invite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1homework/para_breaker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +19,7 @@
     <SUITE FILE_PATH="coverage/python$multuple.coverage" NAME="multuple Coverage Results" MODIFIED="1400452287490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$paragraph_stats.coverage" NAME="paragraph_stats Coverage Results" MODIFIED="1397858134419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$print_docstring.coverage" NAME="print_docstring Coverage Results" MODIFIED="1394962626262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$para_breaker.coverage" NAME="para_breaker Coverage Results" MODIFIED="1400591189127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$better_valid_input.coverage" NAME="better_valid_input Coverage Results" MODIFIED="1400539834210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$word_list.coverage" NAME="word_list Coverage Results" MODIFIED="1399627244609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$greeting.coverage" NAME="greeting Coverage Results" MODIFIED="1395352378050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
@@ -53,6 +55,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="word_counter.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="30" selection-start="522" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="personlist.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/personlist.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,15 +82,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="valid_input.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/valid_input.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="better_valid_input.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/better_valid_input.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,19 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invite.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="invite.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/invite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="13" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.92805755" vertical-offset="603" max-vertical-offset="1080">
+            <state line="66" column="13" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multuple.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1homework/multuple.py">
+      <file leaf-file-name="para_breaker.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="510">
+            <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -154,6 +156,7 @@
         <option value="$PROJECT_DIR$/python1/valid_input.py" />
         <option value="$PROJECT_DIR$/python1/better_valid_input.py" />
         <option value="$PROJECT_DIR$/python1/invite.py" />
+        <option value="$PROJECT_DIR$/python1homework/para_breaker.py" />
       </list>
     </option>
   </component>
@@ -298,26 +301,7 @@
       <recent name="$PROJECT_DIR$/python1homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.invite">
-    <configuration default="false" name="personlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/personlist.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.para_breaker">
     <configuration default="false" name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,6 +373,25 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/invite.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="para_breaker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1homework/para_breaker.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -545,19 +548,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.personlist" />
-      <item index="1" class="java.lang.String" itemvalue="Python.factorial" />
-      <item index="2" class="java.lang.String" itemvalue="Python.valid_input" />
-      <item index="3" class="java.lang.String" itemvalue="Python.better_valid_input" />
-      <item index="4" class="java.lang.String" itemvalue="Python.invite" />
+      <item index="0" class="java.lang.String" itemvalue="Python.factorial" />
+      <item index="1" class="java.lang.String" itemvalue="Python.valid_input" />
+      <item index="2" class="java.lang.String" itemvalue="Python.better_valid_input" />
+      <item index="3" class="java.lang.String" itemvalue="Python.invite" />
+      <item index="4" class="java.lang.String" itemvalue="Python.para_breaker" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.invite" />
-        <item index="1" class="java.lang.String" itemvalue="Python.better_valid_input" />
-        <item index="2" class="java.lang.String" itemvalue="Python.valid_input" />
-        <item index="3" class="java.lang.String" itemvalue="Python.factorial" />
-        <item index="4" class="java.lang.String" itemvalue="Python.personlist" />
+        <item index="0" class="java.lang.String" itemvalue="Python.para_breaker" />
+        <item index="1" class="java.lang.String" itemvalue="Python.invite" />
+        <item index="2" class="java.lang.String" itemvalue="Python.better_valid_input" />
+        <item index="3" class="java.lang.String" itemvalue="Python.valid_input" />
+        <item index="4" class="java.lang.String" itemvalue="Python.factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -710,11 +713,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python1/space_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/wall_area.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210" />
@@ -910,11 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.54198474" vertical-offset="192" max-vertical-offset="585" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1homework/input_counter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="57" selection-start="1565" selection-end="1565" vertical-scroll-proportion="1.9847329" vertical-offset="0" max-vertical-offset="900" />
@@ -932,20 +925,6 @@
         <state line="8" column="3" selection-start="582" selection-end="582" vertical-scroll-proportion="0.072115384" vertical-offset="120" max-vertical-offset="645" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/multuple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/formatting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="63" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -953,23 +932,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/personlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/valid_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="9" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.3426396" vertical-offset="0" max-vertical-offset="394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="55" selection-start="752" selection-end="752" vertical-scroll-proportion="0.39086294" vertical-offset="191" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/multuple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="32" selection-end="32" vertical-scroll-proportion="0.07194245" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
@@ -981,9 +960,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python1/factorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/personlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="522" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python1/invite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="13" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.92805755" vertical-offset="603" max-vertical-offset="1080">
+        <state line="66" column="13" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
