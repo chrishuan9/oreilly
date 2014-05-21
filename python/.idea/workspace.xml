@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1homework/para_breaker.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/todo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -94,16 +94,25 @@
       <file leaf-file-name="invite.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/invite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="13" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+            <state line="66" column="8" selection-start="2529" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="para_breaker.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todo.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python1/todo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="16" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.8920863" vertical-offset="408" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="para_breaker.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="1071">
+            <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -157,6 +166,7 @@
         <option value="$PROJECT_DIR$/python1/better_valid_input.py" />
         <option value="$PROJECT_DIR$/python1/invite.py" />
         <option value="$PROJECT_DIR$/python1homework/para_breaker.py" />
+        <option value="$PROJECT_DIR$/python1/todo.py" />
       </list>
     </option>
   </component>
@@ -713,11 +723,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python1/wall_area.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1homework/one_statement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="25" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
@@ -953,13 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/better_valid_input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/factorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="1" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
@@ -981,16 +979,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/invite.py">
+    <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="13" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+        <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
+    <entry file="file://$PROJECT_DIR$/python1/better_valid_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="1071">
+        <state line="6" column="2" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/invite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="8" selection-start="2529" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/todo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="16" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.8920863" vertical-offset="408" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
