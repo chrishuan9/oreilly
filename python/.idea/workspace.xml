@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings" />
+    <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1homework/inputter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,10 +100,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todo.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/todo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="16" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.8920863" vertical-offset="408" max-vertical-offset="870">
+            <state line="52" column="16" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inputter.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python1homework/inputter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.38071066" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -164,6 +176,7 @@
         <option value="$PROJECT_DIR$/python1/invite.py" />
         <option value="$PROJECT_DIR$/python1homework/para_breaker.py" />
         <option value="$PROJECT_DIR$/python1/todo.py" />
+        <option value="$PROJECT_DIR$/python1homework/inputter.py" />
       </list>
     </option>
   </component>
@@ -720,11 +733,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python1homework/one_statement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1homework/greeting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
@@ -999,7 +1007,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/todo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="16" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.8920863" vertical-offset="408" max-vertical-offset="870">
+        <state line="52" column="16" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/inputter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.38071066" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
