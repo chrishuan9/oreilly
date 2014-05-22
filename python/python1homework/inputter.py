@@ -22,3 +22,9 @@ Enter text: The file is saving correctly
 Python is fun.O'Reilly makes good classes.The file is saving correctly
 Enter text:
 """
+empty_input = ''
+string_input = 'Enter text: '
+while True:
+    inp = input(string_input)
+    if inp == empty_input:
+        break

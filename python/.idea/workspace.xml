@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1homework/inputter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python1homework/inputter.py" afterPath="$PROJECT_DIR$/python1homework/inputter.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,6 +15,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$invite.coverage" NAME="invite Coverage Results" MODIFIED="1400585623508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$inputter.coverage" NAME="inputter Coverage Results" MODIFIED="1400795876965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$multuple.coverage" NAME="multuple Coverage Results" MODIFIED="1400452287490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$paragraph_stats.coverage" NAME="paragraph_stats Coverage Results" MODIFIED="1397858134419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$print_docstring.coverage" NAME="print_docstring Coverage Results" MODIFIED="1394962626262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="invite.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/invite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="8" selection-start="2529" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1080">
+            <state line="66" column="8" selection-start="2529" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="todo.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/todo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="16" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="870">
+            <state line="52" column="16" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -112,16 +112,7 @@
       <file leaf-file-name="inputter.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python1homework/inputter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.38071066" vertical-offset="0" max-vertical-offset="435">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="para_breaker.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1071">
+            <state line="19" column="42" selection-start="717" selection-end="717" vertical-scroll-proportion="0.50359714" vertical-offset="75" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -321,26 +312,7 @@
       <recent name="$PROJECT_DIR$/python1homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.para_breaker">
-    <configuration default="false" name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/factorial.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.inputter">
     <configuration default="false" name="valid_input" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -412,6 +384,25 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1homework/para_breaker.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="inputter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1homework/inputter.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -568,19 +559,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.factorial" />
-      <item index="1" class="java.lang.String" itemvalue="Python.valid_input" />
-      <item index="2" class="java.lang.String" itemvalue="Python.better_valid_input" />
-      <item index="3" class="java.lang.String" itemvalue="Python.invite" />
-      <item index="4" class="java.lang.String" itemvalue="Python.para_breaker" />
+      <item index="0" class="java.lang.String" itemvalue="Python.valid_input" />
+      <item index="1" class="java.lang.String" itemvalue="Python.better_valid_input" />
+      <item index="2" class="java.lang.String" itemvalue="Python.invite" />
+      <item index="3" class="java.lang.String" itemvalue="Python.para_breaker" />
+      <item index="4" class="java.lang.String" itemvalue="Python.inputter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.para_breaker" />
-        <item index="1" class="java.lang.String" itemvalue="Python.invite" />
-        <item index="2" class="java.lang.String" itemvalue="Python.better_valid_input" />
-        <item index="3" class="java.lang.String" itemvalue="Python.valid_input" />
-        <item index="4" class="java.lang.String" itemvalue="Python.factorial" />
+        <item index="0" class="java.lang.String" itemvalue="Python.inputter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.para_breaker" />
+        <item index="2" class="java.lang.String" itemvalue="Python.invite" />
+        <item index="3" class="java.lang.String" itemvalue="Python.better_valid_input" />
+        <item index="4" class="java.lang.String" itemvalue="Python.valid_input" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +664,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="729" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -684,7 +675,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32575756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32575756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1080" height="530" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -848,11 +839,6 @@
         <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.14457831" vertical-offset="0" max-vertical-offset="415" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/one_statement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="882" selection-end="882" vertical-scroll-proportion="0.35657686" vertical-offset="0" max-vertical-offset="631" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1homework/greeting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.118858956" vertical-offset="0" max-vertical-offset="631" />
@@ -977,16 +963,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
+    <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="522" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.6472081" vertical-offset="0" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
+    <entry file="file://$PROJECT_DIR$/python1homework/one_statement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1071">
+        <state line="13" column="25" selection-start="882" selection-end="882" vertical-scroll-proportion="0.5905512" vertical-offset="0" max-vertical-offset="381">
           <folding />
         </state>
       </provider>
@@ -994,6 +980,13 @@
     <entry file="file://$PROJECT_DIR$/python1/better_valid_input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="2" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="522" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
@@ -1014,7 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1homework/inputter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.38071066" vertical-offset="0" max-vertical-offset="435">
+        <state line="19" column="42" selection-start="717" selection-end="717" vertical-scroll-proportion="0.50359714" vertical-offset="75" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
