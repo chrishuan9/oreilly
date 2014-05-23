@@ -22,9 +22,34 @@ Enter text: The file is saving correctly
 Python is fun.O'Reilly makes good classes.The file is saving correctly
 Enter text:
 """
+
+import os
+import os.path
+
+#change to your liking
+path_to_tmp_file = "tmpsavefile.txt"
+
 empty_input = ''
+#check if file already exists and print out content
+if os.path.isfile("tmpsavefile.txt") and os.access("tmpsavefile.txt", os.R_OK):
+    print("Using tmp file: {0}".format(path_to_tmp_file))
+    #print file content
+    f = open(path_to_tmp_file, 'r')
+    for line in f.readlines():
+        print(line)
+    f.close()
 string_input = 'Enter text: '
 while True:
     inp = input(string_input)
     if inp == empty_input:
         break
+    else:
+        f = open(path_to_tmp_file, 'a')
+        if f.writable():
+            f.write(inp)
+            f.close()
+        #print new file content
+        f = open(path_to_tmp_file, 'r')
+        for line in f.readlines():
+            print(line)
+            f.close()
