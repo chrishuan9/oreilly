@@ -1,16 +1,17 @@
 __author__ = 'chris'
 
 
-def multiplier(*args):
-    """ Multiply the arguments together and return the result.
+def multiplier(total=0.0,*args):
+    """ Multiply the arguments together, add a prior total, and return the result.
         Return 0 if nothing is provided.
     """
     if not args:
-        return 0
+        return total
     product = args[0]
     for a in args[1:]:
         product *= a
-    return product
+    print("product: ",product)
+    return product + total
 
 
 print(multiplier())

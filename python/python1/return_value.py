@@ -2,13 +2,13 @@ __author__ = 'chris'
 
 
 def structure_list(text):
-    """Returns a list of punctuation in a text"""
+    """Returns a list of punctuation and the location of the word 'Python' in a text"""
     punctuation_marks = "!?.,:;"
     punctuation = []
     for mark in punctuation_marks:
         if mark in text:
             punctuation.append(mark)
-    return punctuation
+    return punctuation,text.find('Python')
 
 
 text_block = """\Python is used everywhere nowadays.Major users include Google, Yahoo!, CERN and NASA (a team of 40
@@ -22,11 +22,13 @@ This snippet of text taken from chapter 1"""
 
 for line in text_block.splitlines():
     print(line)
-    p = structure_list(line)
+    p,l = structure_list(line)
     if p:
         print("Contains:", p)
     else:
         print("No punctuation in this line of text")
     if ',' in p:
         print("This line contains a comma")
+    if l >= 0:
+        print("Python is first used at {0}".format(l))
     print('-' * 80)
