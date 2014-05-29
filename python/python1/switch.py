@@ -2,6 +2,7 @@ __author__ = 'chris'
 """ A program designed to display switching in Python """
 
 import sys
+import courses
 
 
 def print_text(text, *args, **kwargs):
@@ -42,6 +43,7 @@ if __name__ == "__main__":
         'args': print_args,
         'kwargs': print_kwargs,
         'all': print_all,
+        'courses': courses.description,
         'quit': quit
     }
 
