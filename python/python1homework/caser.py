@@ -43,22 +43,27 @@ import sys
 
 
 def capitalize(text):
+    """Prints capitalized string"""
     print(text.capitalize())
 
 
 def title(text):
+    """Prints titled string"""
     print(text.title())
 
 
 def upper(text):
+    """Prints string in all Upercases"""
     print(text.upper())
 
 
 def lower(text):
+    """Prints string in all lowercases"""
     print(text.lower())
 
 
 def exit(text):
+    """Quits the program"""
     print("Goodbye for now!")
     sys.exit()
 
