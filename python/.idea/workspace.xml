@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/keyword_args.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/courses.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -51,6 +51,7 @@
     <SUITE FILE_PATH="coverage/python$case_convert.coverage" NAME="case_convert Coverage Results" MODIFIED="1395096646024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$input_counter.coverage" NAME="input_counter Coverage Results" MODIFIED="1400102656446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$lab11quiz1.coverage" NAME="lab11quiz1 Coverage Results" MODIFIED="1401044362571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$courses.coverage" NAME="courses Coverage Results" MODIFIED="1401396519187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$pair_frequency.coverage" NAME="pair_frequency Coverage Results" MODIFIED="1400096387594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$three_param.coverage" NAME="three_param Coverage Results" MODIFIED="1401042549254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$wall_area.coverage" NAME="wall_area Coverage Results" MODIFIED="1395096650124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
@@ -141,10 +142,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyword_args.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="keyword_args.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/keyword_args.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.59210527" vertical-offset="0" max-vertical-offset="380">
+            <state line="15" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="courses.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python1/courses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="37" selection-start="565" selection-end="565" vertical-scroll-proportion="0.55263156" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -215,6 +225,7 @@
         <option value="$PROJECT_DIR$/python1/funcalls.py" />
         <option value="$PROJECT_DIR$/python1homework/guessing_game.py" />
         <option value="$PROJECT_DIR$/python1/keyword_args.py" />
+        <option value="$PROJECT_DIR$/python1/courses.py" />
       </list>
     </option>
   </component>
@@ -359,26 +370,7 @@
       <recent name="$PROJECT_DIR$/python1homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.keyword_args">
-    <configuration default="false" name="importer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/importer.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.courses">
     <configuration default="false" name="funcs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -450,6 +442,25 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/keyword_args.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="courses" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/courses.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -606,19 +617,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.importer" />
-      <item index="1" class="java.lang.String" itemvalue="Python.funcs" />
-      <item index="2" class="java.lang.String" itemvalue="Python.funcalls" />
-      <item index="3" class="java.lang.String" itemvalue="Python.guessing_game" />
-      <item index="4" class="java.lang.String" itemvalue="Python.keyword_args" />
+      <item index="0" class="java.lang.String" itemvalue="Python.funcs" />
+      <item index="1" class="java.lang.String" itemvalue="Python.funcalls" />
+      <item index="2" class="java.lang.String" itemvalue="Python.guessing_game" />
+      <item index="3" class="java.lang.String" itemvalue="Python.keyword_args" />
+      <item index="4" class="java.lang.String" itemvalue="Python.courses" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.keyword_args" />
-        <item index="1" class="java.lang.String" itemvalue="Python.guessing_game" />
-        <item index="2" class="java.lang.String" itemvalue="Python.funcalls" />
-        <item index="3" class="java.lang.String" itemvalue="Python.funcs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.importer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.courses" />
+        <item index="1" class="java.lang.String" itemvalue="Python.keyword_args" />
+        <item index="2" class="java.lang.String" itemvalue="Python.guessing_game" />
+        <item index="3" class="java.lang.String" itemvalue="Python.funcalls" />
+        <item index="4" class="java.lang.String" itemvalue="Python.funcs" />
       </list>
     </recent_temporary>
   </component>
@@ -751,7 +762,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3233909" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3233909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3233909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1080" height="530" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -803,11 +814,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python1homework/lab1quiz2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
@@ -1094,7 +1100,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/keyword_args.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.59210527" vertical-offset="0" max-vertical-offset="380">
+        <state line="15" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/courses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="565" selection-end="565" vertical-scroll-proportion="0.55263156" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
