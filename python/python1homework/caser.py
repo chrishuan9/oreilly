@@ -34,6 +34,54 @@ Python Is A Dynamic Language
 Enter a function name (capitalize, title, upper, lower, or exit): exit
 Enter a string: seeya
 Goodbye for now!
+
 Can you think of a way you could simplify the creation of the function dispatch table? (Hint: you can use methods of
 the string type, str, directly as functions that take a single string argument.)
 """
+
+import sys
+
+
+def capitalize(text):
+    print(text.capitalize())
+
+
+def title(text):
+    print(text.title())
+
+
+def upper(text):
+    print(text.upper())
+
+
+def lower(text):
+    print(text.lower())
+
+
+def exit():
+    print("Goodbye for now")
+    sys.exit()
+
+
+if __name__ == "__main__":
+    switch = {
+        'capitalize': capitalize,
+        'title': title,
+        'upper': upper,
+        'lower': lower,
+        'exit': exit
+    }
+
+options = switch.keys()
+
+prompt = 'Enter a function name ({0}): '.format(', '.join(options))
+prompt2 = 'Enter a string: '
+
+while True:
+    inputcommand = input(prompt)
+    option = switch.get(inputcommand, None)
+    if option:
+        inputtext = input(prompt2)
+        option(inputtext)
+    else:
+        print('Please select a valid option!')
