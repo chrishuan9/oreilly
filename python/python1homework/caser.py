@@ -58,8 +58,8 @@ def lower(text):
     print(text.lower())
 
 
-def exit():
-    print("Goodbye for now")
+def exit(text):
+    print("Goodbye for now!")
     sys.exit()
 
 
