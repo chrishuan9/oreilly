@@ -1,19 +1,21 @@
 __author__ = 'chris'
 """
-Objective 1:
+Lab 13, Objective 1:
 This project further tests your ability to write and use custom functions.
 
-Create a new Python source file named caser.py.
-Create these functions:
-capitalize accepts a string parameter and applies the capitalize() method.
-title accepts a string parameter and applies the title() method.
-upper accepts a string parameter and applies the upper() method.
-lower accepts a string parameter and applies the lower() method.
-exit ends the program.
-Store these functions in a dict with the keys matching the function names.
-Create a while loop that requests two inputs from the user: one of the above function names, and any string.
-Use function dispatch to get the correct function based on the first input, and then apply that function to the
+1. Create a new Python source file named caser.py.
+2. Create these functions:
+    - capitalize accepts a string parameter and applies the capitalize() method.
+    - title accepts a string parameter and applies the title() method.
+    - upper accepts a string parameter and applies the upper() method.
+    - lower accepts a string parameter and applies the lower() method.
+    - exit ends the program.
+
+3. Store these functions in a dict with the keys matching the function names.
+4. Create a while loop that requests two inputs from the user: one of the above function names, and any string.
+5. Use function dispatch to get the correct function based on the first input, and then apply that function to the
 second input.
+
 Below is an example of possible output from running the program (note the difference between upper case,
 capitalization, and title case).
 
