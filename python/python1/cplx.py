@@ -24,10 +24,10 @@ if __name__ == "__main__":
     zero = Cplx()
     #Methods need to be prefixed with the class name
     #because methods were moved into the class
-    Cplx.cinit(zero, 0.0, 0.0)
+    zero.cinit(zero, 0.0, 0.0)
     one = Cplx()
-    Cplx.cinit(one, 1.0, 0.0)
+    one.cinit(one, 1.0, 0.0)
     i = Cplx()
-    Cplx.cinit(i, 0.0, 1.0)
-    result = Cplx.cadd(zero, Cplx.cadd(one, i))
-    print(Cplx.cstr(result))
+    i.cinit(i, 0.0, 1.0)
+    result = zero.cadd(zero, one.cadd(one, i))
+    print(result.cstr(result))
