@@ -21,10 +21,10 @@ class Cplx:
 
 if __name__ == "__main__":
     zero = Cplx()
-    cinit(zero, 0.0, 0.0)
+    Cplx.cinit(zero, 0.0, 0.0)
     one = Cplx()
-    cinit(one, 1.0, 0.0)
+    Cplx.cinit(one, 1.0, 0.0)
     i = Cplx()
-    cinit(i, 0.0, 1.0)
-    result = cadd(zero, cadd(one, i))
-    print(cstr(result))
+    Cplx.cinit(i, 0.0, 1.0)
+    result = Cplx.cadd(zero, Cplx.cadd(one, i))
+    print(Cplx.cstr(result))
