@@ -6,16 +6,16 @@ class Cplx:
     #pass statement no longer needed because class body is not empty anymore
     #pass
 
-    def __init__(c, real, imag):
-        c.real = real
-        c.imag = imag
+    def __init__(self, real, imag):
+        self.real = real
+        self.imag = imag
 
-    def __add__(c1, c2):
-        c = Cplx(c1.real + c2.real, c1.imag + c2.imag)
+    def __add__(self, c2):
+        c = Cplx(self.real + c2.real, self.imag + c2.imag)
         return c
 
-    def __str__(c):
-        return "%s+%sj" % (c.real, c.imag)
+    def __str__(self):
+        return "%s+%sj" % (self.real, self.imag)
 
 
 if __name__ == "__main__":
