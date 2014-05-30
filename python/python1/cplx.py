@@ -3,7 +3,8 @@ __author__ = 'chris'
 
 
 class Cplx:
-    pass
+    #pass statement no longer needed because class body is not empty anymore
+    #pass
 
     def cinit(c, real, imag):
         c.real = real
@@ -21,6 +22,8 @@ class Cplx:
 
 if __name__ == "__main__":
     zero = Cplx()
+    #Methods need to be prefixed with the class name
+    #because methods were moved into the class
     Cplx.cinit(zero, 0.0, 0.0)
     one = Cplx()
     Cplx.cinit(one, 1.0, 0.0)
