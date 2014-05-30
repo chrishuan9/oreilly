@@ -42,16 +42,16 @@ class Dog:
         self.breed = breed
 
     def __str__(self):
-        print("{0}:{1}".format(self.name, self.breed))
+        return "{0}:{1}".format(self.name, self.breed)
 
 
 if __name__ == "__main__":
     dogs = []
     while True:
-        inputName = input("Name:")
+        inputName = input("Name: ")
         if not inputName:
             break
-        inputBreed = input("Breed:")
+        inputBreed = input("Breed: ")
         dogs.append(Dog(inputName, inputBreed))
         print("DOGS")
         for i, dog in enumerate(dogs):
