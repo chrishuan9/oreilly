@@ -30,6 +30,10 @@ def divide(a, b):
     #Tuple: matches if one of entries in the tuple matches
     except (ZeroDivisionError, TypeError):
         print("Something went wrong!")
+        #if it doesn't match any of the errors above the exception
+        #is raised and the except in the __main__ program catches
+        #the exception because all Exceptions are direct or
+        #indirect sublasses of Exception
         raise
 
 
