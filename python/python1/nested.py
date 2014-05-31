@@ -26,13 +26,13 @@ def divide(a, b):
     print("=" * 20)
     print("a: ", a, "/ b: ", b)
     try:
-        try:
-            return a / b
-        except TypeError:
-            print("Invalid types for division")
+        result = a / b
+        print("Sometimes executed")
+        return result
+    except TypeError:
+        print("Invalid types for division")
     except ZeroDivisionError:
         print("Divide by zero")
-
 
 if __name__ == "__main__":
     print(divide(1, "string"))
