@@ -34,29 +34,16 @@ def book_title(title):
     >>> book_title('the WORKS OF AleXANDer dumas')
     'The Works of Alexander Dumas'
 
-    >>> book_title(' ')
-    ''
     """
-    lst_of_words = title.lower().split()
+    lst_of_words = title.lower().title().split()
     if len(lst_of_words) < 1:
         return ''
-    new_title = lst_of_words.pop(0)
-    new_title = new_title[0].upper() + new_title[1:]
-    tpl_of_words = tuple(lst_of_words)
-    for word in tpl_of_words:
-        prep_word = False
-        for prep in small_words:
-            if prep == word:
-                new_title = new_title + ' '
-                new_title = new_title + word
-                prep_word = True
-                break
-        if prep_word == True:
-            continue
-        new_title = new_title + ' '
-        new_title = new_title + word[0].upper()
-        new_title = new_title + word[1:]
-    return new_title
+    for index, word in enumerate(lst_of_words):
+        #checks if word is a preposition and not at the
+        #beginning of the string
+        if word.lower() in small_words and index != 0:
+            lst_of_words[index] = word.lower()
+    return ' '.join(lst_of_words)
 
 
 def _test():
