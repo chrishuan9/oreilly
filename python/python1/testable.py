@@ -14,7 +14,7 @@ def square(x):
     ...
     TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
     '''
-    return x * 2
+    return x ** 2
 
 
 def _test():
