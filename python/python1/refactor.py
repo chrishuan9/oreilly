@@ -2,7 +2,7 @@ __author__ = 'chris'
 """Demonstrates an opportunity for refactoring."""
 
 
-def list_multiply(LIST_A, LIST_B):
+def list_multiply(a, b):
     """ Sums two lists of integers and multiplies them together
 
     >>> list_multiply([3,4],[3,4])
@@ -11,17 +11,7 @@ def list_multiply(LIST_A, LIST_B):
     300
     """
 
-    TOTAL_A = 0
-    for i in LIST_A:
-        TOTAL_A += i
-    TOTAL_B = 0
-    counter = 0
-    while True:
-        if counter > len(LIST_B) - 1:
-            break
-        TOTAL_B = TOTAL_B + LIST_B[counter]
-        counter += 1
-    return TOTAL_A * TOTAL_B
+    return sum(a) * sum(b)
 
 
 def _test():
