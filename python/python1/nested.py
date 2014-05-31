@@ -27,15 +27,15 @@ def divide(a, b):
     print("a: ", a, "/ b: ", b)
     try:
         result = a / b
-        print("Sometimes executed")
-        return result
-    except TypeError:
-        print("Invalid types for division")
-    except ZeroDivisionError:
-        print("Divide by zero")
+    #Tuple: matches if one of entries in the tuple matches
+    except (ZeroDivisionError, TypeError):
+        print("Something went wrong!")
+        raise
+
 
 if __name__ == "__main__":
-    print(divide(1, "string"))
-    print(divide("string", 0))
-    print(divide(2, 0))
-    print(divide(123, 4))
+    for arg1, arg2 in ((1, "string"), (2, 0), (123, 4)):
+        try:
+            print(divide(arg1, arg2))
+        except Exception as msg:
+            print("Problem: {0}".format(msg))
