@@ -65,13 +65,23 @@ def word_length(filename):
 
     try:
         f = open("declaration.txt", 'r')
-        inputlines = f.readlines()
+        text = f.readlines()
         #Python removes the punctuation to ensure that only words are present in the text.
         #"It's" is not the same as "It's," # (with a comma), so the punctuation must be removed
-        for punc in ",?;.'":
-            text = text.replace(punc, "")
+        freq = {}
+        for line in text:
+            for punc in ",?;.'":
+                line = line.replace(punc, "")
+            #use the length as the key and the value for the count
+            for word in line.split():
+                freq[len(word)] = freq.get(len(word), 0) + 1
+
+        print("Length Count")
+        for word in sorted(freq.keys()):
+            print(word, freq[word])
+
     except FileNotFoundError:
-        print("File Not found, check path")
+        print("File Not found, check path/filename")
 
 
 def _test():
