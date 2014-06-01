@@ -40,3 +40,46 @@ Here is some sample output.
 Also, you will probably want to define a function to return the length of each word, since the built-in len()
 function will include punctuation characters.
 """
+
+
+def word_length(filename):
+    """
+    >>> word_length("declaration.txt")
+    Length Count
+    1 16
+    2 267
+    3 267
+    4 169
+    5 140
+    6 112
+    7 99
+    8 68
+    9 61
+    10 56
+    11 35
+    12 13
+    13 9
+    14 7
+    15 2
+    """
+
+    try:
+        f = open("declaration.txt", 'r')
+        inputlines = f.readlines()
+        #Python removes the punctuation to ensure that only words are present in the text.
+        #"It's" is not the same as "It's," # (with a comma), so the punctuation must be removed
+        for punc in ",?;.'":
+            text = text.replace(punc, "")
+    except FileNotFoundError:
+        print("File Not found, check path")
+
+
+def _test():
+    import doctest, refactory
+
+    return doctest.testmod(refactory)
+
+
+if __name__ == "__main__":
+    #_test()
+    word_length("declaration.txt")
