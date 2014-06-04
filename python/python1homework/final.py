@@ -70,7 +70,7 @@ def word_length(filename):
         #"It's" is not the same as "It's," # (with a comma), so the punctuation must be removed
         freq = {}
         for line in text:
-            for punc in ",?;.'":
+            for punc in ",?;.'-:":
                 line = line.replace(punc, "")
             #use the length as the key and the value for the count
             for word in line.split():
