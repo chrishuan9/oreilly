@@ -60,3 +60,56 @@ meaning that's not an acceptable alternative).
 Because our vertical (y-axis) scale is in increments of 20, we don't see representations of word lengths of fewer
 occurrences than 20 (the 12- through 15-character words).
 """
+
+
+def word_length(filename):
+    """
+    >>> word_length("declaration.txt")
+    Length Count
+    1 16
+    2 267
+    3 267
+    4 169
+    5 140
+    6 112
+    7 99
+    8 68
+    9 61
+    10 56
+    11 35
+    12 13
+    13 9
+    14 7
+    15 2
+    """
+
+    try:
+        f = open("declaration.txt", 'r')
+        text = f.readlines()
+        # Python removes the punctuation to ensure that only words are present in the text.
+        #"It's" is not the same as "It's," # (with a comma), so the punctuation must be removed
+        freq = {}
+        for line in text:
+            for punc in ",.?:;'\"-!&":
+                line = line.replace(punc, "")
+            #use the length as the key and the value for the count
+            for word in line.split():
+                freq[len(word)] = freq.get(len(word), 0) + 1
+
+        print("Length Count")
+        for word in sorted(freq.keys()):
+            print(word, freq[word])
+
+    except FileNotFoundError:
+        print("File Not found, check path/filename")
+
+
+def _test():
+    import doctest, refactory
+
+    return doctest.testmod(refactory)
+
+
+if __name__ == "__main__":
+    # _test()
+    word_length("declaration.txt")
