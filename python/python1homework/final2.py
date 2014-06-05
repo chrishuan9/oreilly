@@ -59,6 +59,9 @@ meaning that's not an acceptable alternative).
 
 Because our vertical (y-axis) scale is in increments of 20, we don't see representations of word lengths of fewer
 occurrences than 20 (the 12- through 15-character words).
+
+x-axis: length of words
+y-axis: maximum count
 """
 
 
