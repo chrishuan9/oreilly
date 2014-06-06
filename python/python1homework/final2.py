@@ -103,8 +103,22 @@ def word_length(filename):
         for word in sorted(freq.keys()):
             print(word, freq[word])
 
+        # print the graph
+        printGraph(freq)
     except FileNotFoundError:
         print("File Not found, check path/filename")
+
+
+def printGraph(frequency):
+    inverse = [(value, key) for key, value in frequency.items()]
+    yScale = max(inverse)
+    for row in range(yScale[0]):
+        for length in range(max(frequency)):
+            if (length in frequency.keys() and frequency[length] >= row):
+                print('*', end="")
+        print()
+
+
 
 
 def _test():
