@@ -129,8 +129,12 @@ def printGraph(frequency):
     print()
     print('      | 1', end="")
     for length in range(2, max(frequency.keys()) + 1):
-        print("  {0}".format(length), end="")
-
+        # the if else branch is simply to fix the formatting of the x-scale
+        #decreases the space between the numbers of the scale depending on the size
+        if length < 10:
+            print("  {0}".format(length), end="")
+        else:
+            print(" {0}".format(length), end="")
 
 def _test():
     import doctest, refactory
