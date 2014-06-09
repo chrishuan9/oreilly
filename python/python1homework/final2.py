@@ -115,20 +115,20 @@ def printGraph(frequency):
     for row in range(400, 0, -20):
         # print y-scale
         if row % 100 == 0:
-            print("{0:>3d}".format(row) + " - |", end="")
+            print("{0:>3d}".format(row) + " - |   ", end="")
         else:
-            print('      |', end="")
+            print('      |   ', end="")
         for count in range(max(frequency), 0, -1):
             if (count in frequency.keys() and frequency[count] >= row):
                 print('***', end="")
         print()
         #last line print the x-scale
-    print("{0:>3d}".format(0) + " - |", end="")
+    print("{0:>3d}".format(0) + "  -+-", end="")
     for length in sorted(frequency.keys()):
         print("+--", end="")
     print()
-    print('      |', end="")
-    for length in sorted(frequency.keys()):
+    print('      | 1', end="")
+    for length in range(2, max(frequency.keys()) + 1):
         print("  {0}".format(length), end="")
 
 
