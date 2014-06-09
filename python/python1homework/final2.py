@@ -112,12 +112,17 @@ def word_length(filename):
 def printGraph(frequency):
     inverse = [(value, key) for key, value in frequency.items()]
     yScale = max(inverse)
-    for row in range(0, 400, 20):
+    for row in range(400, -1, -20):
+        # print y-scale
+        if row % 100 == 0:
+            print("{0:>3d}".format(row) + " - |", end="")
+        else:
+            print('      |', end="")
         for length in range(max(frequency)):
             if (length in frequency.keys() and frequency[length] >= row):
                 print('*', end="")
         print()
-
+        #last line print the x-scale
 
 
 
