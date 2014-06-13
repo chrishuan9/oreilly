@@ -66,28 +66,8 @@ y-axis: maximum count
 
 
 def word_length(filename):
-    """
-    >>> word_length("declaration.txt")
-    Length Count
-    1 16
-    2 267
-    3 267
-    4 169
-    5 140
-    6 112
-    7 99
-    8 68
-    9 61
-    10 56
-    11 35
-    12 13
-    13 9
-    14 7
-    15 2
-     """
-
     try:
-        f = open("declaration.txt", 'r')
+        f = open(filename, 'r')
         text = f.readlines()
         # Python removes the punctuation to ensure that only words are present in the text.
         #"It's" is not the same as "It's," # (with a comma), so the punctuation must be removed
@@ -136,11 +116,5 @@ def printGraph(frequency):
         else:
             print(" {0}".format(length), end="")
 
-            # def _test():
-            #import doctest, refactory
-            #return doctest.testmod(refactory)
-
-
 if __name__ == "__main__":
-    # _test()
     word_length("declaration.txt")
