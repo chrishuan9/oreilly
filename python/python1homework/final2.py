@@ -136,10 +136,9 @@ def printGraph(frequency):
         else:
             print(" {0}".format(length), end="")
 
-def _test():
-    import doctest, refactory
-
-    return doctest.testmod(refactory)
+            # def _test():
+            #import doctest, refactory
+            #return doctest.testmod(refactory)
 
 
 if __name__ == "__main__":
