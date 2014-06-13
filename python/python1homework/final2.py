@@ -84,7 +84,7 @@ def word_length(filename):
     13 9
     14 7
     15 2
-    """
+     """
 
     try:
         f = open("declaration.txt", 'r')
