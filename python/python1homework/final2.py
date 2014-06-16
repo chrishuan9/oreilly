@@ -90,14 +90,19 @@ def word_length(filename):
 
 
 def printGraph(frequency):
+    #inverse the dictionary in order to retrieve the max value for the scale
     inverse = [(value, key) for key, value in frequency.items()]
     yScale = max(inverse)
+    #hard-coded y-scale, needs fix for smaller counts such as 5-50 as stated in the exercise
     for row in range(400, 0, -20):
         # print y-scale
         if row % 100 == 0:
+            #prints y-scale with segment indicator
             print("{0:>3d}".format(row) + " - |   ", end="")
         else:
+            #prints y-scale | part
             print('      |   ', end="")
+        #prints actual line
         for count in range(max(frequency), 0, -1):
             if (count in frequency.keys() and frequency[count] >= row):
                 print('***', end="")

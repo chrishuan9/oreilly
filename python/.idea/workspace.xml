@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="PyCharm settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1/dispatch_table.py" />
+    <list default="true" id="d5e1a95e-ede2-45ec-8344-2a097dfc7c35" name="Default" comment="Python 1: Lesson 14: Classes and object-oriented programming: refactoring">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1homework/declaration.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python1homework/declaration_short.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python1homework/final2.py" afterPath="$PROJECT_DIR$/python1homework/final2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -16,48 +18,70 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$invite.coverage" NAME="invite Coverage Results" MODIFIED="1400585623508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$keyword_args.coverage" NAME="keyword_args Coverage Results" MODIFIED="1401305217772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$average.coverage" NAME="average Coverage Results" MODIFIED="1401019642534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$inputter.coverage" NAME="inputter Coverage Results" MODIFIED="1400964364380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
-    <SUITE FILE_PATH="coverage/python$multuple.coverage" NAME="multuple Coverage Results" MODIFIED="1400452287490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$caser.coverage" NAME="caser Coverage Results" MODIFIED="1401447173165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$refactor.coverage" NAME="refactor Coverage Results" MODIFIED="1401572340868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$guessing_game.coverage" NAME="guessing_game Coverage Results" MODIFIED="1401231422278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
-    <SUITE FILE_PATH="coverage/python$importer.coverage" NAME="importer Coverage Results" MODIFIED="1401155016741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$paragraph_stats.coverage" NAME="paragraph_stats Coverage Results" MODIFIED="1397858134419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$print_docstring.coverage" NAME="print_docstring Coverage Results" MODIFIED="1394962626262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$Doctests_in_final2__2_.coverage" NAME="Doctests in final2 (2) Coverage Results" MODIFIED="1402695910603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$funcs.coverage" NAME="funcs Coverage Results" MODIFIED="1401223426204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$para_breaker.coverage" NAME="para_breaker Coverage Results" MODIFIED="1400591189127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$doggies.coverage" NAME="doggies Coverage Results" MODIFIED="1401491578844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$caching.coverage" NAME="caching Coverage Results" MODIFIED="1401041537560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$better_valid_input.coverage" NAME="better_valid_input Coverage Results" MODIFIED="1400539834210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$greeting.coverage" NAME="greeting Coverage Results" MODIFIED="1395352378050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$word_list.coverage" NAME="word_list Coverage Results" MODIFIED="1399627244609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$argument_list.coverage" NAME="argument_list Coverage Results" MODIFIED="1401041037809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$valid_input.coverage" NAME="valid_input Coverage Results" MODIFIED="1400536333103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$one_statement.coverage" NAME="one_statement Coverage Results" MODIFIED="1394877899588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$greeting.coverage" NAME="greeting Coverage Results" MODIFIED="1395352378050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$Doctests_in_final2__5_.coverage" NAME="Doctests in final2 (5) Coverage Results" MODIFIED="1402341783842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$personlist.coverage" NAME="personlist Coverage Results" MODIFIED="1400455886438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$Lab4Quiz1.coverage" NAME="Lab4Quiz1 Coverage Results" MODIFIED="1396950243458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
-    <SUITE FILE_PATH="coverage/python$word_frequency.coverage" NAME="word_frequency Coverage Results" MODIFIED="1399831029613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1400486805540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$print_list.coverage" NAME="print_list Coverage Results" MODIFIED="1401019848108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$Doctests_in_final2__3_.coverage" NAME="Doctests in final2 (3) Coverage Results" MODIFIED="1402341987884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$lab13quiz2.coverage" NAME="lab13quiz2 Coverage Results" MODIFIED="1401452059978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$check_string.coverage" NAME="check_string Coverage Results" MODIFIED="1395953599910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$word_matcher.coverage" NAME="word_matcher Coverage Results" MODIFIED="1399803676026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$guess.coverage" NAME="guess Coverage Results" MODIFIED="1397123802259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
-    <SUITE FILE_PATH="coverage/python$formatting.coverage" NAME="formatting Coverage Results" MODIFIED="1400279501694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$funcalls.coverage" NAME="funcalls Coverage Results" MODIFIED="1401228895905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$Doctest_word_length.coverage" NAME="Doctest word_length Coverage Results" MODIFIED="1402698564348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$space_finder.coverage" NAME="space_finder Coverage Results" MODIFIED="1396028127976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$dispatch_table.coverage" NAME="dispatch_table Coverage Results" MODIFIED="1401399338530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
-    <SUITE FILE_PATH="coverage/python$better_sentence_splitter.coverage" NAME="better_sentence_splitter Coverage Results" MODIFIED="1399626916175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$vowel_counter.coverage" NAME="vowel_counter Coverage Results" MODIFIED="1396024084830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$dispatch_table.coverage" NAME="dispatch_table Coverage Results" MODIFIED="1401399338530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$Doctest_square.coverage" NAME="Doctest square Coverage Results" MODIFIED="1401568896702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1394473567079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$secret_code.coverage" NAME="secret_code Coverage Results" MODIFIED="1400977340349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$case_convert.coverage" NAME="case_convert Coverage Results" MODIFIED="1395096646024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$input_counter.coverage" NAME="input_counter Coverage Results" MODIFIED="1400102656446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
-    <SUITE FILE_PATH="coverage/python$lab11quiz1.coverage" NAME="lab11quiz1 Coverage Results" MODIFIED="1401044362571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$courses.coverage" NAME="courses Coverage Results" MODIFIED="1401397782641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$pair_frequency.coverage" NAME="pair_frequency Coverage Results" MODIFIED="1400096387594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$three_param.coverage" NAME="three_param Coverage Results" MODIFIED="1401042549254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
-    <SUITE FILE_PATH="coverage/python$wall_area.coverage" NAME="wall_area Coverage Results" MODIFIED="1395096650124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
     <SUITE FILE_PATH="coverage/python$lab1quiz2.coverage" NAME="lab1quiz2 Coverage Results" MODIFIED="1394878337518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
     <SUITE FILE_PATH="coverage/python$return_value.coverage" NAME="return_value Coverage Results" MODIFIED="1401027097940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$cplx.coverage" NAME="cplx Coverage Results" MODIFIED="1401481194342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$keyword_args.coverage" NAME="keyword_args Coverage Results" MODIFIED="1401305217772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$Doctests_in_final.coverage" NAME="Doctests in final Coverage Results" MODIFIED="1401581802125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$average.coverage" NAME="average Coverage Results" MODIFIED="1401019642534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$final2.coverage" NAME="final2 Coverage Results" MODIFIED="1402698742668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$inputter.coverage" NAME="inputter Coverage Results" MODIFIED="1400964364380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$multuple.coverage" NAME="multuple Coverage Results" MODIFIED="1400452287490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$Doctests_in_final2__4_.coverage" NAME="Doctests in final2 (4) Coverage Results" MODIFIED="1402341957652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$importer.coverage" NAME="importer Coverage Results" MODIFIED="1401155016741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$Doctests_in_final2.coverage" NAME="Doctests in final2 Coverage Results" MODIFIED="1402695921151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$verifyNumericInput.coverage" NAME="verifyNumericInput Coverage Results" MODIFIED="1401534387539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$argument_list.coverage" NAME="argument_list Coverage Results" MODIFIED="1401041037809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$valid_input.coverage" NAME="valid_input Coverage Results" MODIFIED="1400536333103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$one_statement.coverage" NAME="one_statement Coverage Results" MODIFIED="1394877899588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1400486805540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$word_frequency.coverage" NAME="word_frequency Coverage Results" MODIFIED="1399831029613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$Lab4Quiz1.coverage" NAME="Lab4Quiz1 Coverage Results" MODIFIED="1396950243458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$nested.coverage" NAME="nested Coverage Results" MODIFIED="1401535753526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$print_list.coverage" NAME="print_list Coverage Results" MODIFIED="1401019848108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$switch.coverage" NAME="switch Coverage Results" MODIFIED="1401399972184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$exceptions.coverage" NAME="exceptions Coverage Results" MODIFIED="1401536625739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$guess.coverage" NAME="guess Coverage Results" MODIFIED="1397123802259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$formatting.coverage" NAME="formatting Coverage Results" MODIFIED="1400279501694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$divider.coverage" NAME="divider Coverage Results" MODIFIED="1401537374809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$funcalls.coverage" NAME="funcalls Coverage Results" MODIFIED="1401228895905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$Doctests_in_final2__1_.coverage" NAME="Doctests in final2 (1) Coverage Results" MODIFIED="1402342146037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$better_sentence_splitter.coverage" NAME="better_sentence_splitter Coverage Results" MODIFIED="1399626916175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
+    <SUITE FILE_PATH="coverage/python$secret_code.coverage" NAME="secret_code Coverage Results" MODIFIED="1400977340349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$Doctest_book_title.coverage" NAME="Doctest book_title Coverage Results" MODIFIED="1401577935601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$Doctests_in_refactor.coverage" NAME="Doctests in refactor Coverage Results" MODIFIED="1401576528743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$lab11quiz1.coverage" NAME="lab11quiz1 Coverage Results" MODIFIED="1401044362571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1homework" />
+    <SUITE FILE_PATH="coverage/python$wall_area.coverage" NAME="wall_area Coverage Results" MODIFIED="1395096650124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -74,88 +98,104 @@
       <file leaf-file-name="word_counter.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="522" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="375">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invite.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/invite.py">
+      <file leaf-file-name="refactor.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1/refactor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="8" selection-start="2529" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+            <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="495">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/todo.py">
+      <file leaf-file-name="refactor.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1homework/refactor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guessing_game.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1homework/guessing_game.py">
+      <file leaf-file-name="final.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1homework/final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="18" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="750">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
+              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print_list.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/print_list.py">
+      <file leaf-file-name="declaration_short.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python1homework/declaration_short.txt">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state vertical-scroll-proportion="0.70422536" vertical-offset="125" max-vertical-offset="480">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="return_value.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/return_value.py">
+      <file leaf-file-name="final2.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1homework/final2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="8" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="600">
+            <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1950">
+              <caret line="95" column="92" selection-start-line="95" selection-start-column="92" selection-end-line="95" selection-end-column="92" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="funcalls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/funcalls.py">
+      <file leaf-file-name="declaration.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1homework/declaration.txt">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state vertical-scroll-proportion="-2.0566037" vertical-offset="1421" max-vertical-offset="2160">
+              <caret line="102" column="1" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyword_args.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/keyword_args.py">
+      <file leaf-file-name="paragraph_stats.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1/paragraph_stats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+            <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="495">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="courses.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python1/courses.py">
+      <file leaf-file-name="sentence_splitter.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1/sentence_splitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="28" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dispatch_table.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python1/dispatch_table.py">
+      <file leaf-file-name="word_frequency.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python1/word_frequency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="380">
+            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
+              <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -179,19 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/hello_world.py" />
-        <option value="$PROJECT_DIR$/python1homework/lab1quiz2.py" />
-        <option value="$PROJECT_DIR$/python1/print_docstring.py" />
-        <option value="$PROJECT_DIR$/python1/case_convert.py" />
-        <option value="$PROJECT_DIR$/python1homework/lab2objective1.py" />
-        <option value="$PROJECT_DIR$/python1/wall_area.py" />
-        <option value="$PROJECT_DIR$/python1homework/greeting.py" />
-        <option value="$PROJECT_DIR$/python1homework/one_statement.py" />
-        <option value="$PROJECT_DIR$/python1/check_string.py" />
-        <option value="$PROJECT_DIR$/python1/vowel_counter.py" />
-        <option value="$PROJECT_DIR$/python1/space_finder.py" />
-        <option value="$PROJECT_DIR$/python1homework/Lab4Quiz1.py" />
-        <option value="$PROJECT_DIR$/python1homework/guess.py" />
         <option value="$PROJECT_DIR$/python1/paragraph_stats.py" />
         <option value="$PROJECT_DIR$/python1/word_list.py" />
         <option value="$PROJECT_DIR$/python1homework/word_list.py" />
@@ -228,13 +255,28 @@
         <option value="$PROJECT_DIR$/python1/keyword_args.py" />
         <option value="$PROJECT_DIR$/python1/courses.py" />
         <option value="$PROJECT_DIR$/python1/dispatch_table.py" />
+        <option value="$PROJECT_DIR$/python1/switch.py" />
+        <option value="$PROJECT_DIR$/python1homework/caser.py" />
+        <option value="$PROJECT_DIR$/python1homework/lab13quiz2.py" />
+        <option value="$PROJECT_DIR$/python1/cplx.py" />
+        <option value="$PROJECT_DIR$/python1homework/doggies.py" />
+        <option value="$PROJECT_DIR$/python1/verifyNumericInput.py" />
+        <option value="$PROJECT_DIR$/python1/nested.py" />
+        <option value="$PROJECT_DIR$/python1/exceptions.py" />
+        <option value="$PROJECT_DIR$/python1homework/divider.py" />
+        <option value="$PROJECT_DIR$/python1/testable.py" />
+        <option value="$PROJECT_DIR$/python1/refactor.py" />
+        <option value="$PROJECT_DIR$/python1homework/refactor.py" />
+        <option value="$PROJECT_DIR$/python1homework/final.py" />
+        <option value="$PROJECT_DIR$/python1homework/final2.py" />
+        <option value="$PROJECT_DIR$/python1homework/declaration_short.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="729" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -267,7 +309,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -311,20 +353,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -350,13 +378,15 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/bin" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
+    <property name="SearchEverywhereHistory" value="all" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -365,6 +395,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python1homework" />
       <recent name="$PROJECT_DIR$/python1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -372,27 +403,52 @@
       <recent name="$PROJECT_DIR$/python1homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dispatch_table">
-    <configuration default="false" name="funcalls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.final2">
+    <configuration default="false" name="Doctest word_length" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/funcalls.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1homework/final2.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="word_length" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="guessing_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Doctests in final2" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1homework/final2.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="final2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -405,66 +461,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1homework/guessing_game.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="keyword_args" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/keyword_args.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="courses" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/courses.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="dispatch_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1/dispatch_table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python1homework/final2.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -554,7 +551,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -620,20 +617,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.funcalls" />
-      <item index="1" class="java.lang.String" itemvalue="Python.guessing_game" />
-      <item index="2" class="java.lang.String" itemvalue="Python.keyword_args" />
-      <item index="3" class="java.lang.String" itemvalue="Python.courses" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dispatch_table" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Doctest word_length" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in final2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.final2" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dispatch_table" />
-        <item index="1" class="java.lang.String" itemvalue="Python.courses" />
-        <item index="2" class="java.lang.String" itemvalue="Python.keyword_args" />
-        <item index="3" class="java.lang.String" itemvalue="Python.guessing_game" />
-        <item index="4" class="java.lang.String" itemvalue="Python.funcalls" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.final2" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctest word_length" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in final2" />
       </list>
     </recent_temporary>
   </component>
@@ -749,11 +742,231 @@
       <created>1401228945536</created>
       <updated>1401228945536</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Python 1: Lesson 13: More about functions - Function Execution by Dispatch">
+      <created>1401399779230</created>
+      <updated>1401399779230</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Python 1: Lesson 13: More about functions - Function Execution by Dispatch">
+      <created>1401400002249</created>
+      <updated>1401400002249</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Python 1: Lesson 13: More about functions - Lab 13, Objective 1: Execise description">
+      <created>1401400271025</created>
+      <updated>1401400271025</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Python 1: Lesson 13: More about functions - Lab 13, Objective 1: fixed formatting">
+      <created>1401400353200</created>
+      <updated>1401400353200</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Python 1: Lesson 13: More about functions - Lab 13, Objective 1: first working implementation">
+      <created>1401406522246</created>
+      <updated>1401406522246</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Python 1: Lesson 13: More about functions - Lab 13, Objective 1: fix for failing exit">
+      <created>1401407023147</created>
+      <updated>1401407023147</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Python 1: Lesson 13: More about functions - Lab 13, Objective 1: added docstrings">
+      <created>1401407292430</created>
+      <updated>1401407292431</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Python 1: Lesson 13: More about functions - Lab 13, Quiz 2: Examples">
+      <created>1401475683544</created>
+      <updated>1401475683544</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Python 1: Lesson 14: Classes and object-oriented programming">
+      <created>1401478806571</created>
+      <updated>1401478806571</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Python 1: Lesson 14: Classes and object-oriented programming: refactoring">
+      <created>1401478885737</created>
+      <updated>1401478885737</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Python 1: Lesson 14: Classes and object-oriented programming: refactoring - removed old constructor">
+      <created>1401479278879</created>
+      <updated>1401479278879</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Python 1: Lesson 14: Classes and object-oriented programming: movied methods into class">
+      <created>1401480049125</created>
+      <updated>1401480049125</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Python 1: Lesson 14: Classes and object-oriented programming: fix for error: NameError: name 'cinit' is not defined">
+      <created>1401480229435</created>
+      <updated>1401480229435</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Python 1: Lesson 14: Classes and object-oriented programming: documentary">
+      <created>1401480286697</created>
+      <updated>1401480286697</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Python 1: Lesson 14: Classes and object-oriented programming:     &#10;zero.cinit(zero, 0.0, 0.0)&#10;TypeError: cinit() takes 3 positional arguments but 4 were given">
+      <created>1401480505945</created>
+      <updated>1401480505945</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Python 1: Lesson 14: Classes and object-oriented programming: Python Magic: __init__ hook">
+      <created>1401480904122</created>
+      <updated>1401480904122</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Python 1: Lesson 14: Classes and object-oriented programming: Introducing python's toPrint()">
+      <created>1401480994072</created>
+      <updated>1401480994072</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Python 1: Lesson 14: Classes and object-oriented programming: parameter overloading is a breeze">
+      <created>1401481110431</created>
+      <updated>1401481110431</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Python 1: Lesson 14: Classes and object-oriented programming: final version">
+      <created>1401481255335</created>
+      <updated>1401481255335</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Python 1: Lesson 14: Lab 14, Objective 1: Skeleton">
+      <created>1401481372816</created>
+      <updated>1401481372816</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Python 1: Lesson 14: Lab 14, Objective 1 - not working yet">
+      <created>1401491339903</created>
+      <updated>1401491339903</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Python 1: Lesson 14: Lab 14, Objective 1 - fixed error in class">
+      <created>1401491480803</created>
+      <updated>1401491480803</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Python 1: Lesson 14: Lab 14, Objective 1 - fixed error in __str__ method">
+      <created>1401491574760</created>
+      <updated>1401491574760</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Python 1: Lesson 15: Exception Handling: ValueError">
+      <created>1401534430411</created>
+      <updated>1401534430411</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Python 1: Lesson 15: Exception Handling: Nested exceptions">
+      <created>1401534815810</created>
+      <updated>1401534815810</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Python 1: Lesson 15: Exception Handling: Nested exceptions remove readability">
+      <created>1401535526201</created>
+      <updated>1401535526201</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Python 1: Lesson 15: Exception Handling: raising exceptions">
+      <created>1401535774617</created>
+      <updated>1401535774617</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Python 1: Lesson 15: Exception Handling: raising exceptions">
+      <created>1401535955656</created>
+      <updated>1401535955657</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Python 1: Lesson 15: Exception Handling: generci exceptions">
+      <created>1401536758720</created>
+      <updated>1401536758721</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Python 1: Lesson 15: Lab 15, Objective 1">
+      <created>1401537365269</created>
+      <updated>1401537365269</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Python 1: Lesson 16: Doctest - failing">
+      <created>1401563493138</created>
+      <updated>1401563493138</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Python 1: Lesson 16: Doctest - fixed">
+      <created>1401568998785</created>
+      <updated>1401568998785</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Python 1: Lesson 16: Refactoring Example">
+      <created>1401570167156</created>
+      <updated>1401570167156</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Python 1: Lesson 16: Refactoring Example - finished refactoring">
+      <created>1401570560753</created>
+      <updated>1401570560754</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Python 1: Lesson 16: Refactoring Example - added new functionality">
+      <created>1401572361998</created>
+      <updated>1401572361998</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Python 1: Lesson 16: Lab 16, Objective 1: Exercise">
+      <created>1401572659507</created>
+      <updated>1401572659507</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Python 1: Lesson 16: Lab 16, Objective 1: started refactoring">
+      <created>1401573781295</created>
+      <updated>1401573781295</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Python 1: Lesson 16: Lab 16, Objective 1: finished refactoring">
+      <created>1401578006841</created>
+      <updated>1401578006841</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Python 1: Lesson 16: Lab 16, Objective 2: execise">
+      <created>1401579958648</created>
+      <updated>1401579958649</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Python 1: Lesson 16: Lab 16, Objective 2: removing punctuation">
+      <created>1401583210257</created>
+      <updated>1401583210257</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Python 1: Lesson 16: Lab 16, Objective 2: first frequency/length counter - not yet working correctl">
+      <created>1401594577539</created>
+      <updated>1401594577540</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Python 1: Lesson 16: Lab 16, Objective 2: first frequency/length counter - working: but still failing the test">
+      <created>1401914373183</created>
+      <updated>1401914373183</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Python 1: Lesson 16: Lab 16, Objective 2: first frequency/length counter - working &amp; passing the test">
+      <created>1401914807163</created>
+      <updated>1401914807163</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Python 1: Lesson 16: Lab 16, Objective 3: Skeleton">
+      <created>1401915354668</created>
+      <updated>1401915354668</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Python 1: Lesson 16: Lab 16, Objective 3: added copy of final.py as instructed">
+      <created>1401915391268</created>
+      <updated>1401915391268</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Python 1: Lesson 16: Lab 16, Objective 3: improved description">
+      <created>1402005568009</created>
+      <updated>1402005568009</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet">
+      <created>1402019728271</created>
+      <updated>1402019728271</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet">
+      <created>1402176888128</created>
+      <updated>1402176888129</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet">
+      <created>1402328578665</created>
+      <updated>1402328578665</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet">
+      <created>1402340676859</created>
+      <updated>1402340676859</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult">
+      <created>1402342040134</created>
+      <updated>1402342040134</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult">
+      <created>1402342271054</created>
+      <updated>1402342271054</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult">
+      <created>1402695700832</created>
+      <updated>1402695700832</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult - removed tests">
+      <created>1402695973145</created>
+      <updated>1402695973145</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult - removed tests/ added declartion">
+      <created>1402698836935</created>
+      <updated>1402698836935</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="729" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="731" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -762,16 +975,16 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2625202" sideWeight="0.6698262" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39717427" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27059773" sideWeight="0.6698262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39655173" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3233909" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3233909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32237872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1080" height="530" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1080" height="530" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -782,6 +995,9 @@
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -790,330 +1006,412 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Lab 3, Objective 1: first version" />
-    <MESSAGE value="Lesson 1, objective 1" />
-    <MESSAGE value="Lesson 1, Getting Started" />
-    <MESSAGE value="Lesson 2: Entering and Storing Data" />
-    <MESSAGE value="Lab 3, Objective 1" />
-    <MESSAGE value="Lesson 4: Iteration: For Loops and Iteration&#10;" />
-    <MESSAGE value="only modified output" />
-    <MESSAGE value="Lesson 4: For and While Loops: Space _ finder: first buggy version: fails if there is no space in the string" />
-    <MESSAGE value="Lesson 4: For and While Loops: Lab 4, Objective 1" />
-    <MESSAGE value="Lesson 4: For and While Loops: Lab4, Quiz 1 still pending" />
-    <MESSAGE value="Lesson 4: For and While Loops: homework inverted the messages" />
-    <MESSAGE value="PyCharm settings" />
-    <MESSAGE value="Python 1: Lesson 5: Sequence Containers" />
-    <MESSAGE value="Python 1: Lesson 5: Sequence Containers: Modification to keep track of one and two letter words" />
-    <MESSAGE value="Python 1: Lesson 7: String formatting: Ex" />
-    <MESSAGE value="Python 1: Lesson 10: Defining and Calling functions" />
-    <MESSAGE value="Python 1: Lesson 10: Defining and Calling functions: updated with global cache" />
-    <MESSAGE value="Python 1: Lesson 10: Defining and Calling functions: updated with global cache: Lab 11, Objective 1" />
-    <MESSAGE value="Python 1: Lesson 12: The Standard Library: FuncCalls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python 1: Lesson 12: The Standard Library: FuncCalls" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
+    <MESSAGE value="Python 1: Lesson 15: Exception Handling: Nested exceptions" />
+    <MESSAGE value="Python 1: Lesson 15: Exception Handling: Nested exceptions remove readability" />
+    <MESSAGE value="Python 1: Lesson 15: Exception Handling: raising exceptions" />
+    <MESSAGE value="Python 1: Lesson 15: Exception Handling: generci exceptions" />
+    <MESSAGE value="Python 1: Lesson 15: Lab 15, Objective 1" />
+    <MESSAGE value="Python 1: Lesson 16: Doctest - failing" />
+    <MESSAGE value="Python 1: Lesson 16: Doctest - fixed" />
+    <MESSAGE value="Python 1: Lesson 16: Refactoring Example" />
+    <MESSAGE value="Python 1: Lesson 16: Refactoring Example - finished refactoring" />
+    <MESSAGE value="Python 1: Lesson 16: Refactoring Example - added new functionality" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 1: Exercise" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 1: started refactoring" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 1: finished refactoring" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 2: execise" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 2: removing punctuation" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 2: first frequency/length counter - not yet working correctl" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 2: first frequency/length counter - working: but still failing the test" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 2: first frequency/length counter - working &amp; passing the test" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 3: Skeleton" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 3: added copy of final.py as instructed" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 3: improved description" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult - removed tests" />
+    <MESSAGE value="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult - removed tests/ added declartion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python 1: Lesson 16: Lab 16, Objective 3: graphical output not working correctly yet- sorting out some formatting issues: quite difficult - removed tests/ added declartion" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python1/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="631" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/print_docstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.25301206" vertical-offset="0" max-vertical-offset="415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/case_convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.28915662" vertical-offset="0" max-vertical-offset="415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/lab1quiz2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="67" selection-end="67" vertical-scroll-proportion="0.036144577" vertical-offset="0" max-vertical-offset="415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.14457831" vertical-offset="0" max-vertical-offset="415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/greeting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.118858956" vertical-offset="0" max-vertical-offset="631" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/vowel_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="252" selection-end="252" vertical-scroll-proportion="0.19017433" vertical-offset="0" max-vertical-offset="631" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/space_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="811" selection-end="811" vertical-scroll-proportion="0.38034865" vertical-offset="0" max-vertical-offset="631" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/wall_area.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.19017433" vertical-offset="0" max-vertical-offset="631" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/lab4quiz1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="338" selection-end="338" vertical-scroll-proportion="0.19017433" vertical-offset="0" max-vertical-offset="631" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/guess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.4964029" vertical-offset="93" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/check_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="73" selection-start="931" selection-end="931" vertical-scroll-proportion="0.5371703" vertical-offset="61" max-vertical-offset="495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/paragraph_stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="2" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/better_sentence_splitter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="15" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="446" selection-end="446" vertical-scroll-proportion="0.22203948" vertical-offset="0" max-vertical-offset="608" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-151068394/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4321" column="6" selection-start="142206" selection-end="142206" vertical-scroll-proportion="0.33280757" vertical-offset="64619" max-vertical-offset="88560" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/word_matcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="50" selection-start="167" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/input_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="57" selection-start="1565" selection-end="1565" vertical-scroll-proportion="1.9847329" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/word_frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/word_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="582" selection-end="582" vertical-scroll-proportion="0.072115384" vertical-offset="120" max-vertical-offset="645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/formatting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="63" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python1/valid_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.3426396" vertical-offset="0" max-vertical-offset="394" />
+        <state vertical-scroll-proportion="0.3426396" vertical-offset="0" max-vertical-offset="394">
+          <caret line="9" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/pair_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="752" selection-end="752" vertical-scroll-proportion="0.39086294" vertical-offset="191" max-vertical-offset="585" />
+        <state vertical-scroll-proportion="0.39086294" vertical-offset="191" max-vertical-offset="585">
+          <caret line="23" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/factorial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="14" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/personlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="14" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/better_valid_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="6" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/argument_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="349" selection-end="349" vertical-scroll-proportion="0.32019705" vertical-offset="0" max-vertical-offset="609" />
+        <state vertical-scroll-proportion="0.32019705" vertical-offset="0" max-vertical-offset="609">
+          <caret line="13" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1homework/lab11quiz1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.35526314" vertical-offset="0" max-vertical-offset="380" />
+        <state vertical-scroll-proportion="0.35526314" vertical-offset="0" max-vertical-offset="380">
+          <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1homework/three_param.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.8684211" vertical-offset="60" max-vertical-offset="690" />
+        <state vertical-scroll-proportion="0.8684211" vertical-offset="60" max-vertical-offset="690">
+          <caret line="26" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/moda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="588">
-          <folding />
+        <state vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="588">
+          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/modb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="182" selection-end="182" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="588">
-          <folding />
+        <state vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="588">
+          <caret line="4" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/importer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="123" selection-end="123" vertical-scroll-proportion="0.11780105" vertical-offset="0" max-vertical-offset="382">
-          <folding />
+        <state vertical-scroll-proportion="0.11780105" vertical-offset="0" max-vertical-offset="382">
+          <caret line="3" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/caching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="23" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/return_value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="600">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="600">
+          <caret line="32" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/print_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/average.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="15" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/invite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="8" selection-start="2529" selection-end="2534" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1080">
+        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1080">
+          <caret line="66" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/multuple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.073569484" vertical-offset="3" max-vertical-offset="525">
+          <caret line="2" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/one_statement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.613079" vertical-offset="0" max-vertical-offset="367">
+          <caret line="13" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.92098093" vertical-offset="563" max-vertical-offset="930">
+          <caret line="14" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/secret_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078947365" vertical-offset="0" max-vertical-offset="420">
+          <caret line="2" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/todo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="12" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/inputter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67105263" vertical-offset="345" max-vertical-offset="930">
+          <caret line="41" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/guessing_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="750">
+          <caret line="24" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31578946" vertical-offset="30" max-vertical-offset="450">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/lab13quiz2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31578946" vertical-offset="0" max-vertical-offset="380">
+          <caret line="8" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/switch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32894737" vertical-offset="580" max-vertical-offset="960">
+          <caret line="47" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/dispatch_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="380">
+          <caret line="10" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/courses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55334985" vertical-offset="227" max-vertical-offset="630">
+          <caret line="30" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/funcalls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/keyword_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/caser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="1470">
+          <caret line="80" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/cplx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="465">
+          <caret line="16" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/doggies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="990">
+          <caret line="33" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/verifyNumericInput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="15" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/nested.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="765">
+          <caret line="28" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="570">
+          <caret line="23" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1homework/divider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="675">
+          <caret line="38" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/testable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="480">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/check_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3026316" vertical-offset="115" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/length_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/better_sentence_splitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python1/sentence_splitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python1/word_counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="522" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="375">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/multuple.py">
+    <entry file="file://$PROJECT_DIR$/python1/word_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="32" selection-end="32" vertical-scroll-proportion="0.073569484" vertical-offset="3" max-vertical-offset="525">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/one_statement.py">
+    <entry file="file://$PROJECT_DIR$/python1/refactor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="882" selection-end="882" vertical-scroll-proportion="0.613079" vertical-offset="0" max-vertical-offset="367">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="495">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/para_breaker.py">
+    <entry file="file://$PROJECT_DIR$/python1homework/refactor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="601" selection-end="601" vertical-scroll-proportion="-0.92098093" vertical-offset="563" max-vertical-offset="930">
+        <state vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="915">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/secret_code.py">
+    <entry file="file://$PROJECT_DIR$/python1/paragraph_stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="33" selection-end="33" vertical-scroll-proportion="0.078947365" vertical-offset="0" max-vertical-offset="420">
+        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="495">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/todo.py">
+    <entry file="file://$PROJECT_DIR$/python1homework/declaration.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+        <state vertical-scroll-proportion="-2.0566037" vertical-offset="1421" max-vertical-offset="2160">
+          <caret line="102" column="1" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/inputter.py">
+    <entry file="file://$PROJECT_DIR$/python1homework/final2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="11" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.67105263" vertical-offset="345" max-vertical-offset="930">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1950">
+          <caret line="95" column="92" selection-start-line="95" selection-start-column="92" selection-end-line="95" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1homework/guessing_game.py">
+    <entry file="file://$PROJECT_DIR$/python1homework/final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="18" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="750">
+        <state vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="1515">
+          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python1/funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.31578946" vertical-offset="30" max-vertical-offset="450">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/python1homework/declaration_short.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/funcalls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/keyword_args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/courses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="28" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python1/dispatch_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="380">
+        <state vertical-scroll-proportion="0.70422536" vertical-offset="125" max-vertical-offset="480">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding />
         </state>
       </provider>
