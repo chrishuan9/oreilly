@@ -95,12 +95,13 @@ def printGraph(frequency):
     #inverse the dictionary in order to retrieve the max value for the scale
     inverse = [(value, key) for key, value in frequency.items()]
     yScale = max(inverse)
-    print("Y Scale {0}".format(yScale[0]))
-    print("Max Y Scale {0}".format(determineYScale(yScale[0])))
+    maxYScale = determineYScale(yScale[0])
+    # print("Y Scale {0}".format(yScale[0]))
+    #print("Max Y Scale {0}".format(maxYScale[0]))
     #hard-coded y-scale, needs fix for smaller counts such as 5-50 as stated in the exercise
-    for row in range(determineYScale(yScale[0]), 0, -20):
+    for row in range(maxYScale[0], 0, -int(maxYScale[1] / 5)):
         # print y-scale
-        if row % 100 == 0:
+        if row % maxYScale[1] == 0:
             #prints y-scale with segment indicator
             print("{0:>3d}".format(row) + " - |   ", end="")
         else:
@@ -132,8 +133,9 @@ def determineYScale(maxCount):
     while maxYScale < maxCount:
         maxYScale += scaler
     maxYScale += scaler
-    return maxYScale
+    return maxYScale, scaler
 
 
 if __name__ == "__main__":
     word_length("declaration.txt")
+    word_length("declaration_short.txt")
