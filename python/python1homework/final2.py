@@ -1,4 +1,6 @@
 __author__ = 'chris'
+import math
+
 """
 Lab 16, Objective 3:
 
@@ -93,8 +95,10 @@ def printGraph(frequency):
     #inverse the dictionary in order to retrieve the max value for the scale
     inverse = [(value, key) for key, value in frequency.items()]
     yScale = max(inverse)
+    print("Y Scale {0}".format(yScale[0]))
+    print("Max Y Scale {0}".format(determineYScale(yScale[0])))
     #hard-coded y-scale, needs fix for smaller counts such as 5-50 as stated in the exercise
-    for row in range(400, 0, -20):
+    for row in range(determineYScale(yScale[0]), 0, -20):
         # print y-scale
         if row % 100 == 0:
             #prints y-scale with segment indicator
@@ -120,6 +124,16 @@ def printGraph(frequency):
             print("  {0}".format(length), end="")
         else:
             print(" {0}".format(length), end="")
+
+
+def determineYScale(maxCount):
+    scaler = 10 ** int(math.log(maxCount, 10))
+    maxYScale = 0
+    while maxYScale < maxCount:
+        maxYScale += scaler
+    maxYScale += scaler
+    return maxYScale
+
 
 if __name__ == "__main__":
     word_length("declaration.txt")
