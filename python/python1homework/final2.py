@@ -92,10 +92,8 @@ def word_length(filename):
 
 
 def printGraph(frequency):
-    #inverse the dictionary in order to retrieve the max value for the scale
-    inverse = [(value, key) for key, value in frequency.items()]
-    yScale = max(inverse)
-    maxYScale = determineYScale(yScale[0])
+    yScale = max(frequency.values())
+    maxYScale = determineYScale(yScale)
     # print("Y Scale {0}".format(yScale[0]))
     #print("Max Y Scale {0}".format(maxYScale[0]))
     #hard-coded y-scale, needs fix for smaller counts such as 5-50 as stated in the exercise
