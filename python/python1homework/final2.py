@@ -96,7 +96,8 @@ def printGraph(frequency):
     maxYScale = determineYScale(yScale)
     # print("Y Scale {0}".format(yScale[0]))
     #print("Max Y Scale {0}".format(maxYScale[0]))
-    #hard-coded y-scale, needs fix for smaller counts such as 5-50 as stated in the exercise
+    # maxYScale[0] is the maximum for the y-scale, maxYScale[1] is the scaler used
+    #for steps in the scale
     for row in range(maxYScale[0], 0, -int(maxYScale[1] / 5)):
         # print y-scale
         if row % maxYScale[1] == 0:
