@@ -1,23 +1,40 @@
 __author__ = 'chris'
-"""Demonstrates the unittest module in action."""
+ #!/usr/local/bin/python3
+#
+# testtitle.py
+#
+"""Python 2: Lessong 2, Project 1"""
 import unittest
 
 
-def cube(x):
-    '''Returns the cube of a passed value'''
-    return x * 3
+def title(self):
+    "How close is this function to str.title()"
+    return self[0].upper() + self[1:].lower()
 
 
-class TestCube(unittest.TestCase):
-    def test_small_number(self):
-        self.assertEqual(cube(3), 27, "Cube of 3 is not 27")
+class TestTitle(unittest.TestCase):
+    def test_title_capitalisation(self):
+        s = "First"
+        expected = title(s)
+        errormsg = "Should return a titlecased \
+            version of the string where words start with an uppercase character\
+            and the remaining characters are lowercase."
+        self.assertEqual(s, expected, errormsg)
 
-    def test_large_number(self):
-        self.assertEqual(cube(1000), 1000000000, "Cube of 1000 should be 1000000000")
+    def test_title_capitalisation_randomcase(self):
+        self.assertEqual("First", title("firST"), "Should return a titlecased \
+            version of the string where words start with an uppercase character\
+            and the remaining characters are lowercase.")
 
-    def test_bad_input(self):
-        self.assertRaises(TypeError, cube, 'x')
+    def test_title_divergence(self):
+        self.assertNotEqual("First, Second, Third", title("firST, sEconD, tHiRD"),
+                            "Every word in the string should be titlecased,\
+                            snot just the first")
 
+    def test_title_native(self):
+        s = "First, secOnD, thIRD, FourTH"
+        self.assertEqual(title(s), s.title(), "Outcome differs compared to\
+                                                 natve method")
 
 if __name__ == "__main__":
     unittest.main()
