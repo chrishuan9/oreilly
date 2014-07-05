@@ -4,4 +4,4 @@ __author__ = 'chris'
 
 
 def adder(x, y):
-    pass
+    return x + y
