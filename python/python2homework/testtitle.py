@@ -2,7 +2,7 @@
 #
 #testtitle.py
 # Dear Pat, thanks for the thorough feedback. I tried to implement most changes
-# you suggessted.
+# you suggessted. Please have a look.
 #
 """Python 2: Lessong 2, Project 1"""
 import unittest
@@ -23,14 +23,19 @@ class TestTitle(unittest.TestCase):
         self.assertEqual(s, expected, errormsg)
 
     def test_title_capitalisation_randomcase(self):
-        self.assertEqual("First", title("firST"), "Should return a titlecased \
-            version of the string where words start with an uppercase character\
-            and the remaining characters are lowercase.")
+        s = "firST"
+        expected = "First"
+        errormsg = "Expected: {0} (built-in method) but got: {1} (home made " \
+                   "method)"
+        self.assertEqual(title(s), expected,
+                         errormsg.format(expected, title(s)))
 
     def test_title_divergence(self):
-        self.assertNotEqual("First, Second, Third", title("firST, sEconD, tHiRD"),
-                            "Every word in the string should be titlecased,\
-                            snot just the first")
+        s = "firST, sEconD, tHiRD"
+        expected = "First, Second, Third"
+        errormsg = "Every word in the string should be titlecased,\
+                            snot just the first"
+        self.assertEqual(s, title(s), errormsg)
 
     def test_title_native(self):
         s = "First, secOnD, thIRD, FourTH"
