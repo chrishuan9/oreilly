@@ -14,7 +14,7 @@ class FileTest(unittest.TestCase):
     def setUp(self):
         self.origdir = os.getcwd()
         self.dirname = tempfile.mkdtemp("testdir")
-        print("Created", self.dirname)
+        # print("Created", self.dirname)
         os.chdir(self.dirname)
 
     def test_1(self):
@@ -32,7 +32,7 @@ class FileTest(unittest.TestCase):
     def tearDown(self):
         os.chdir(self.origdir)
         shutil.rmtree(self.dirname)
-        print("Deleted", self.dirname)
+        #print("Deleted", self.dirname)
 
 
 if __name__ == "__main__":
