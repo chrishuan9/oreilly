@@ -3,6 +3,7 @@ __author__ = 'chris'
 "definition."
 import numbers
 
+
 def adder(x, y):
     if isinstance(x, list) and not isinstance(y, list):
         return x + [y]
