@@ -42,6 +42,20 @@ class FileTest(unittest.TestCase):
         "Verify that the current directory is empty"
         self.assertEqual(glob.glob("*"), [], "Directory not empty")
 
+    def test_3(self):
+        "Verify creation of a binary file that contains exactly a million bytes"
+        filename = "AmillionBytes.txt"
+        filesize = 1000000
+        f = open(filename, "wb")
+        for i in range(0, filesize):
+            f.write(bytes([0]))
+        f.close()
+        # make sure file is closed
+        self.assertTrue(f.closed)
+        fileinfo = os.stat(filename)
+        self.assertEqual(filesize, fileinfo.st_size)
+
+
     def tearDown(self):
         os.chdir(self.origdir)
         shutil.rmtree(self.dirname)
