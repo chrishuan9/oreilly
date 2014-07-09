@@ -9,7 +9,7 @@ def write_list(fn, lst):
     pass
 
 
-def read_list(fn, lst):
+def read_list(fn):
     """Reads a list from a file without using readline.
     Uses standard line endings ("\n") to delimit list items.
     """
