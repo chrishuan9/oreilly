@@ -9,7 +9,8 @@ class TestReadWriteFile(unittest.TestCase):
 
     def setUp(self):
         """This function is run before each test."""
-        self.fixture_file = r"v:\workspace\FileHandling\src\test-read-write.txt"
+        self.fixture_file = r"/Users/chris/Documents/dev/oreilly/python" \
+                            r"/python2/test-read-write.txt"
         self.fixture_list = ["my", "written", "text"]
         self.fixture_list_empty_strings = ["my", "", "", "written", "text"]
         self.fixture_list_trailing_empty_strings = ["my", "written", "text", "",
