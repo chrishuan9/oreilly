@@ -19,5 +19,8 @@ def read_list(fn):
     """
     f = open(fn, "r")
     s = f.read()
+    # If the last character in the file is a newline, delete it
+    if s[-1] == "\n":
+        s = s[:-1]
     l = s.split("\n")
     return l
