@@ -4,8 +4,8 @@ import latest
 import time
 import os
 
-PATHSTEM = "v:\\workspace\\FileHandling\\src\\"
-
+#PATHSTEM = "v:\\workspace\\FileHandling\\src\\"
+PATHSTEM = "~/Documents/dev/oreilly/python/python2"
 class TestLatest(unittest.TestCase):
 
     def setUp(self):
