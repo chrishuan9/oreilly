@@ -3,10 +3,12 @@ import glob
 import os
 
 
-def latest(path="."):
+def examine(path="."):
     files = glob.glob(os.path.join(path, "*"))
-    dated_files = [(os.path.getmtime(fn), os.path.abspath(fn)) for fn in files]
-    dated_files.sort()
-    latest_files = [f for (d, f) in dated_files[-num:]]
-    latest_files.reverse()
-    return latest_files
+    extension_count = {}
+    for fn in files:
+        name, extension = os.path.splitext(fn)
+        if extension not in extension_count:
+            extension_count[extension] = 0
+        extension_count[extension] += 1
+    return extension_count
