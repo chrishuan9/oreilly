@@ -1,7 +1,7 @@
 __author__ = 'chris'
 import unittest
 import tempfile
-import latest
+import examine_directory
 import time
 import os
 
@@ -35,9 +35,9 @@ class TestLatest(unittest.TestCase):
         Ensure that calling the function with no arguments returns
         the contents of the current directory
         """
-        expected = [self.path + "file.new"]
-        latest_file = latest.latest(path=self.path)
-        self.assertEqual(latest_file, expected, )
+        expected = {"doc": 1, "txt": 2}
+        extensions_count = examine_directory.examine(path=self.path)
+        self.assertEqual(extensions_count.sort(), expected.sort())
 
 
     def tearDown(self):
