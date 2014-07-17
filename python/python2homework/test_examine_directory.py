@@ -20,7 +20,8 @@ class TestLatest(unittest.TestCase):
         self.tempdirectory = tempfile.mkdtemp("testdir")
         self.dummy_files = ["file1.doc", "file1.txt", "file2.txt"]
         for fn in self.dummy_files:
-            f = open(self.tempdirectory + fn, "w")
+            #print(os.path.join(self.tempdirectory,fn))
+            f = open(os.path.join(self.tempdirectory,fn), "w")
             f.close()
             time.sleep(1)
 
@@ -42,7 +43,7 @@ class TestLatest(unittest.TestCase):
 
     def tearDown(self):
         for fn in self.dummy_files:
-            os.remove(self.tempdirectory + fn)
+            os.remove(os.path.join(self.tempdirectory,fn))
 
 
 if __name__ == "__main__":
