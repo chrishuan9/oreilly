@@ -35,9 +35,9 @@ class TestLatest(unittest.TestCase):
         Ensure that calling the function with no arguments returns
         the contents of the current directory
         """
-        expected = {"doc": 1, "txt": 2}
-        extensions_count = examine_directory.examine(path=self.path)
-        self.assertEqual(extensions_count.sort(), expected.sort())
+        expected = {".doc": 1, ".txt": 2}
+        extensions_count = examine_directory.examine(path=self.tempdirectory)
+        self.assertEqual(extensions_count, expected)
 
 
     def tearDown(self):
