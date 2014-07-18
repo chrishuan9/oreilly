@@ -30,6 +30,12 @@ class TestLatest(unittest.TestCase):
         Ensure that calling the function on an empty directory returns
         nothing / empty list
         """
+        self.emptydirectory = tempfile.TemporaryDirectory("emptydir")
+        expected = {}
+        extension_count = examine_directory.examine(path=self.emptydirectory)
+        self.assertEqual(extension_count, expected)
+        self.emptydirectory.cleanup()
+        self.assertFalse(os.path.exists(self.emptydirectory))
 
     def test_current_directory(self):
         """
