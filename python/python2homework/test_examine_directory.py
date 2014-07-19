@@ -11,7 +11,7 @@ import os
 # of how many files have each extension (".txt", ".doc", etc.)
 
 # PATHSTEM = "v:\\workspace\\FileHandling\\src\\"
-PATHSTEM = "/Users/chris/Documents/dev/oreilly/python/python2homework/"
+# PATHSTEM = "/Users/chris/Documents/dev/oreilly/python/python2homework/"
 
 
 class TestLatest(unittest.TestCase):
