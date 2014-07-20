@@ -11,7 +11,7 @@ import os
 # of how many files have each extension (".txt", ".doc", etc.)
 
 # PATHSTEM = "v:\\workspace\\FileHandling\\src\\"
-# PATHSTEM = "/Users/chris/Documents/dev/oreilly/python/python2homework/"
+PATHSTEM = "/Users/chris/Documents/dev/oreilly/python/python2homework/"
 
 
 class TestLatest(unittest.TestCase):
@@ -20,7 +20,7 @@ class TestLatest(unittest.TestCase):
         self.tempdirectory = tempfile.mkdtemp("testdir")
         self.dummy_files = ["file1.doc", "file1.txt", "file2.txt"]
         for fn in self.dummy_files:
-            #print(os.path.join(self.tempdirectory,fn))
+            print(os.path.join(self.tempdirectory, fn))
             f = open(os.path.join(self.tempdirectory,fn), "w")
             f.close()
             time.sleep(1)
@@ -30,12 +30,15 @@ class TestLatest(unittest.TestCase):
         Ensure that calling the function on an empty directory returns
         nothing / empty list
         """
-        self.emptydirectory = tempfile.TemporaryDirectory("emptydir")
+        # self.emptydirectory = tempfile.TemporaryDirectory("emptydir")
+        self.emptydirectory = tempfile.mkdtemp("emptydir")
         expected = {}
         extension_count = examine_directory.examine(path=self.emptydirectory)
         self.assertEqual(extension_count, expected)
-        self.emptydirectory.cleanup()
-        self.assertFalse(os.path.exists(self.emptydirectory))
+        # self.emptydirectory.cleanup()
+        #os.remove(self.emptydirectory)
+        #self.emptydirectory.
+        #self.assertFalse(os.path.exists(self.emptydirectory))
 
     def test_current_directory(self):
         """
