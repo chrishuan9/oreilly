@@ -2,22 +2,31 @@ import shelve
 
 class Library:
     def __init__(self, fn):
-        pass
+        self.fn = fn
+        self.shelf = shelve.open(fn)
 
     def add(self, book):
-        pass
+        #using the isbn as a unique key in the dictionary
+        self.shelf[book.isbn] = book
 
     def get_by_isbn(self, isbn):
-        pass
+        return self.shelf[isbn]
 
     def get_by_title(self, title):
-        pass
+        for book in self.shelf.values():
+            if book.title == title:
+                return book
+        return None
 
     def get_by_author(self, author):
-        pass
+        for book in self.shelf.values():
+            for a in book.authors:
+                if a == author:
+                    return book
+        return None
 
     def close(self):
-        pass
+        self.shelf.close()
 
 class Book:
     def __init__(self, isbn, title, authors):
