@@ -10,4 +10,19 @@ import shelve
 
 
 def writehighscore(name, score):
-    pass
+
+    fn = r'/Users/chris/Documents/dev/oreilly/python/python2homework/L5_Project1/highscore.shelve'
+    shelf = shelve.open(fn)
+    #check if player has any record
+    try:
+        if shelf['name']:
+        #check if new record is higher than existing
+            if score > shelf['name']:
+                shelf['name'] = score
+                return score
+        #else do no update
+    except KeyError:
+        print ("Player not found, adding new score")
+        shelf['name'] = score
+    return shelf['name']
+    shelf.close()
