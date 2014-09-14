@@ -22,7 +22,7 @@ def writehighscore(name, score):
                 return score
         #else do no update
     except KeyError:
-        print ("Player not found, adding new score")
+        # Player not found, adding new score
         shelf['name'] = score
     return shelf['name']
     shelf.close()
