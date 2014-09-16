@@ -1,14 +1,15 @@
 __author__ = 'chris'
 import unittest
-import latest
+import ziplatest
 import time
 import os
 import shutil
-import zipfileclass
+import zipfile
 
-TestZip(unittest.TestCase):
+
+class TestZip(unittest.TestCase):
     def setUp(self):
-        self.path = r"v:\workspace\Archives\src\zip_test"
+        self.path = r"/Users/chris/Documents/dev/oreilly/python/python2/L6_ZiptLatest/zip_test"
         self.zip_filename = os.path.join(self.path, "test_zip_latest.zip")
         os.mkdir(self.path)
         self.file_names = ["old", "newer", "newest"]
@@ -18,7 +19,7 @@ TestZip(unittest.TestCase):
             time.sleep(1)
 
     def test_zip_latest(self):
-        latest.zip_latest(self.zip_filename, 2, self.path)
+        ziplatest.zip_latest(self.zip_filename, 2, self.path)
         zf = zipfile.ZipFile(self.zip_filename, "w")
         files_in_archive = zf.namelist()
         zf.close()
