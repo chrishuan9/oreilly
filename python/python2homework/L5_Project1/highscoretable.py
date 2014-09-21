@@ -1,5 +1,9 @@
 __author__ = 'chris'
 import shelve
+import sys
+import os
+import tempfile
+import logging
 
 # Write a function (not a class) that takes two arguments, a string player name and an integer score,
 # and keeps a "high score" table in a Python shelve. If the integer argument is higher than the given
@@ -11,7 +15,16 @@ import shelve
 
 def writehighscore(name, score):
 
-    fn = r'/Users/chris/Documents/dev/oreilly/python/python2homework/L5_Project1/highscore.shelve'
+    #testdir = os.path.dirname(__file__)
+    '''
+    logger = logging.getLogger("highscoretable")
+    logger.debug("setup()")
+    tmpdirectory = tempfile.mkdtemp(dir=os.path.dirname(__file__))
+    tmpfn = os.path.join(tmpdirectory[1],"highscore.shelve")
+    logging(tmpfn)
+    fn = "r"+"'"+tmpfn+"'"
+    logging(fn)
+
     shelf = shelve.open(fn)
     #check if player has any record
     try:
@@ -25,4 +38,4 @@ def writehighscore(name, score):
         # Player not found, adding new score
         shelf['name'] = score
     return shelf['name']
-    shelf.close()
+    shelf.close()'''

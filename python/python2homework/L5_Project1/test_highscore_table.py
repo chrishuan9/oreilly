@@ -2,11 +2,21 @@ import unittest
 import os
 import glob
 import highscoretable
+import tempfile
+import logging
 
 
 class TestLibrary(unittest.TestCase):
     def setUp(self):
-        self.lib_fn = r'/Users/chris/Documents/dev/oreilly/python/python2homework/L5_Project1/highscore.shelve'
+        logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s')
+        logger = logging.getLogger("highscoretable")
+        logger.debug("setup()")
+        tmpdirectory = tempfile.mkdtemp(dir=os.path.dirname(__file__))
+        logger.debug("tmpdirectory " + tmpdirectory)
+        tmpfn = os.path.join(tmpdirectory,"highscore.shelve")
+        logger.debug("tmpfn " + tmpfn)
+        self.lib_fn = "r"+"'"+tmpfn+"'"
+        logger.debug("libfn " + self.lib_fn)
 
     def tearDown(self):
         shelve_files = glob.glob(self.lib_fn + '*')
@@ -32,4 +42,5 @@ class TestLibrary(unittest.TestCase):
         same_highscore = highscoretable.writehighscore('chris',4)
         self.assertEqual(same_highscore, 5)
 
-    if __name__ == "__main__":    unittest.main()
+
+if __name__ == "__main__":    unittest.main()
