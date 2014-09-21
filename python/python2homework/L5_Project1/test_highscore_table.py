@@ -4,6 +4,7 @@ import glob
 import highscoretable
 import tempfile
 import logging
+import shutil
 
 
 class TestLibrary(unittest.TestCase):
@@ -16,9 +17,10 @@ class TestLibrary(unittest.TestCase):
         self.lib_fn = os.path.join(self.tmpdirectory, "highscore.shelve")
 
     def tearDown(self):
-        # No file clean-up necessary since mkdtemp takes care of deleting the
-        # files after succesful execution
-        pass
+        # The user of mkdtemp() is responsible for deleting
+        # the temporary directory and its contents when done with it.
+        shutil.rmtree(self.tmpdirectory)
+
 
 
     def testNewPlayerNewHighScore(self):
