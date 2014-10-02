@@ -1,6 +1,7 @@
 __author__ = 'chris'
 import glob
 import os
+import zipfile
 
 def latest(num=1, path="."):
     files_with_dates = []
@@ -12,4 +13,8 @@ def latest(num=1, path="."):
     return latest_files
 
 def zip_latest(fn, num, path):
-    pass
+    files_to_archive = latest(num, path)
+    zf = zipfile.ZipFile(fn, "w", zipfile.ZIP_DEFLATED)
+    for fn_to_archive in files_to_archive:
+        zf.write(fn_to_archive)
+    zf.close()

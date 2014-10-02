@@ -20,7 +20,7 @@ class TestZip(unittest.TestCase):
 
     def test_zip_latest(self):
         ziplatest.zip_latest(self.zip_filename, 2, self.path)
-        zf = zipfile.ZipFile(self.zip_filename, "w")
+        zf = zipfile.ZipFile(self.zip_filename, "r")
         files_in_archive = zf.namelist()
         zf.close()
         observed = set([os.path.basename(f) for f in files_in_archive])
