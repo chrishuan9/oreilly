@@ -20,7 +20,6 @@ class TestLibrary(unittest.TestCase):
         # The user of mkdtemp() is responsible for deleting
         # the temporary directory and its contents when done with it.
         shutil.rmtree(self.tmpdirectory)
-        #pass
 
 
     def testArchiver(self):
@@ -38,6 +37,7 @@ class TestLibrary(unittest.TestCase):
         zf = archiver.zipFilesinPath(path,archivefile)
         #using list comprehension concatenate working directory wiht filename
         expectedList = [archivefolder+"/{0}".format(i) for i in filenames]
+        #check archives content
         self.assertEqual(sorted(zf.namelist()),sorted(expectedList))
 
 

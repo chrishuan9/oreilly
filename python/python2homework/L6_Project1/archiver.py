@@ -36,6 +36,12 @@ import logging
 def zipFilesinPath(path, archive_name):
     logger = logging.getLogger("archiver")
     currentWorkingDirectory = os.getcwd()
+    #returns the parent directory and the current directories name
+    #the issue was that whenever I added the complete path to the file
+    #it always added the complete directory tree from root "/" until
+    #to the path. However the goal was to only include the parent directory
+    #and its content. I wasn't able to compe up with an less complex solution
+    #but it should work OS independently.
     cWDirectoryPath, cWDName = os.path.split(path)
     os.chdir(path)
     directoryListing = os.listdir()
