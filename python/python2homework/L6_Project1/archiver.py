@@ -1,4 +1,8 @@
 __author__ = 'chris'
+import os
+import glob
+import zipfile
+import logging
 
 # Python 2: Getting More Out of Python:
 # Lesson 6, Project 1
@@ -28,3 +32,24 @@ __author__ = 'chris'
 # files in the subdirectories should not be included. (Hint: You can use
 # isfile() to determine if a filename represents a regular file
 # and not a directory.)
+
+def zipFilesinPath(path, archive_name):
+    logger = logging.getLogger("archiver")
+    currentWorkingDirectory = os.getcwd()
+    cWDirectoryPath, cWDName = os.path.split(path)
+    os.chdir(path)
+    directoryListing = os.listdir()
+    #prepend folder to each item in directorylisting
+    directoryListing = [cWDName + "/{0}".format(i) for i in directoryListing]
+    logger.debug(directoryListing)
+    zipF = zipfile.ZipFile(archive_name,"w")
+    os.chdir(cWDirectoryPath)
+    logger.debug("Current PWD " + os.getcwd())
+    for item in directoryListing:
+        logger.debug("File " + item + "is a file: " + str(os.path.isfile(item)))
+        if os.path.isfile(item):
+            logger.debug("Writing file" +  item)
+            zipF.write(item)
+    zipF.close()
+    os.chdir(currentWorkingDirectory)
+    return zipF
