@@ -6,17 +6,12 @@ class Application(Frame):
         print("Hi there, everyone!")
 
     def createWidgets(self):
-        self.QUIT = Button(self)
-        self.QUIT["text"] = "Goodbye"
-        self.QUIT["fg"]   = "blue"
-        self.QUIT["command"] =  self.quit
-        self.QUIT.pack({"side": "right"})
+        self.hi_there = Button(self, text="Hello", fg="blue",
+                               command=self.say_hi)
+        self.hi_there.pack(side="left")
 
-        self.hi_there = Button(self)
-        self.hi_there["text"] = "Hello",
-        self.hi_there["fg"]   = "red"
-        self.hi_there["command"] = self.say_hi
-        self.hi_there.pack({"side": "left"})
+        self.QUIT = Button(self, text="Goodbye", fg="red", command=self.quit)
+        self.QUIT.pack(side="left")
 
     def __init__(self, master=None):
         Frame.__init__(self, master)
