@@ -10,6 +10,10 @@ class Application(Frame):
                                command=self.say_hi)
         self.hi_there.pack(side="left")
 
+        self.hi_there2 = Button(self, text="Hello too", fg="blue",
+                               command=self.say_hi)
+        self.hi_there2.pack(side="left")
+
         self.QUIT = Button(self, text="Goodbye", fg="red", command=self.quit)
         self.QUIT.pack(side="left")
 
