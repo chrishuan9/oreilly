@@ -7,13 +7,14 @@ class Application(Frame):
 
     def createWidgets(self):
         self.QUIT = Button(self)
-        self.QUIT["text"] = "Quit"
-        self.QUIT["fg"]   = "red"
+        self.QUIT["text"] = "Goodbye"
+        self.QUIT["fg"]   = "blue"
         self.QUIT["command"] =  self.quit
-        self.QUIT.pack({"side": "left"})
+        self.QUIT.pack({"side": "right"})
 
         self.hi_there = Button(self)
         self.hi_there["text"] = "Hello",
+        self.hi_there["fg"]   = "red"
         self.hi_there["command"] = self.say_hi
         self.hi_there.pack({"side": "left"})
 
