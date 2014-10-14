@@ -19,6 +19,13 @@ class Application(Frame):
         helpmenu = Menu(menu)
         menu.add_cascade(label="Help", menu=helpmenu)
         helpmenu.add_command(label="About...", command=self.callback4)
+
+        self.cmenu = Menu(self)
+        self.cmenu.add_command(label="Copy", command=self.copy)
+        self.cmenu.add_command(label="Paste", command=self.paste)
+        self.bind("<Button-3>", self.popup)
+
+
         self.pack()
 
     def callback1(self):
@@ -33,6 +40,17 @@ class Application(Frame):
 
     def callback4(self):
         print("You selected 'Help | About...'")
+
+
+    def copy(self):
+        print("Context command 'Copy' selected")
+
+    def paste(self):
+        print("Context command 'Paste' selected")
+
+    def popup(self, event):
+        self.cmenu.post(event.x_root, event.y_root)
+
 
 root = Tk()
 app = Application(master=root)
