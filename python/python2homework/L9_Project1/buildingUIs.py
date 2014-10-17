@@ -47,7 +47,7 @@ class Application(Frame):
 
 
         # Frame1
-        self.f1 = Frame(master, bg="red")
+        self.f1 = Frame(master, bg="red", name="frame_1")
         self.f1.grid(row=0, column=0, rowspan=1, columnspan=2, sticky=ALL)
 
         #using pack manager inside the frame for the label
@@ -56,7 +56,7 @@ class Application(Frame):
 
 
         #Frame2
-        self.f2 = Frame(master, bg="blue")
+        self.f2 = Frame(master, bg="blue", name="frame_2")
         self.f2.grid(row=1, column=0, rowspan=1, columnspan=2, sticky=ALL)
 
         #using pack manager inside the frame for the label
@@ -65,7 +65,7 @@ class Application(Frame):
 
 
         #Frame 3
-        self.f3 = Frame(master, bg="green")
+        self.f3 = Frame(master, bg="green", name="frame _3")
         self.f3.grid(row=0, column=2, rowspan=3, columnspan=3, sticky=ALL)
 
         #using pack manager inside the frame for the label
@@ -74,12 +74,22 @@ class Application(Frame):
 
 
         #Frame 4 for the buttons
-        self.f4 = Frame(master, bg="white")
+        self.f4 = Frame(master, bg="white", name="frame_4")
         self.f4.grid(row=2, column=0, rowspan=1, columnspan=5, sticky=ALL)
         #Buttons
         for c in range(5):
             button = Button(self.f4, text="Button {0}".format(c + 1, ))
             button.pack(side=LEFT, fill=BOTH, expand=TRUE)
+
+
+        # event handler for mouse click
+        def mousehandler(event):
+            print("{0} was clicked at x:{1} and y:{2}".format(
+                str(event.widget)[1:8], event.x, event.y))
+            return "break"
+
+        self.label1.bind("<Button-1>", mousehandler)
+        self.label2.bind("<Button-1>", mousehandler)
 
 
 root = Tk()
