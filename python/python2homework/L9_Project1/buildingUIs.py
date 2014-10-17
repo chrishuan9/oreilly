@@ -69,16 +69,21 @@ class Application(Frame):
         self.f3.grid(row=0, column=2, rowspan=3, columnspan=3, sticky=ALL)
 
         #using pack manager inside the frame for the label
-        self.label3 = Label(self.f3, text="Frame 3", bg="green")
-        self.label3.pack(fill=BOTH, expand=True)
+        # self.label3 = Label(self.f3, text="Frame 3", bg="green")
+        self.entryfield = Entry(self.f3)
+        self.textdisplay = Text(self.f3, state=DISABLED)
+        #self.label3.pack(fill=BOTH, expand=True)
+        self.entryfield.pack(side=TOP, fill=BOTH, expand=True)
+        self.textdisplay.pack(side=TOP, fill=BOTH, expand=True)
 
 
         #Frame 4 for the buttons
         self.f4 = Frame(master, bg="white", name="frame_4")
         self.f4.grid(row=2, column=0, rowspan=1, columnspan=5, sticky=ALL)
         #Buttons
+        buttonLabels = ["Red", "Blue", "Green", "Black", "Open"]
         for c in range(5):
-            button = Button(self.f4, text="Button {0}".format(c + 1, ))
+            button = Button(self.f4, text=buttonLabels[c])
             button.pack(side=LEFT, fill=BOTH, expand=TRUE)
 
 
