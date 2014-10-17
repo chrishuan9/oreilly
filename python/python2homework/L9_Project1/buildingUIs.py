@@ -69,13 +69,10 @@ class Application(Frame):
         self.f3.grid(row=0, column=2, rowspan=3, columnspan=3, sticky=ALL)
 
         #using pack manager inside the frame for the label
-        # self.label3 = Label(self.f3, text="Frame 3", bg="green")
         self.entryfield = Entry(self.f3)
         self.textdisplay = Text(self.f3, state=DISABLED)
-        #self.label3.pack(fill=BOTH, expand=True)
         self.entryfield.pack(side=TOP, fill=BOTH, expand=True)
         self.textdisplay.pack(side=TOP, fill=BOTH, expand=True)
-
 
         #Frame 4 for the buttons
         self.f4 = Frame(master, bg="white", name="frame_4")
@@ -83,18 +80,26 @@ class Application(Frame):
         #Buttons
         buttonLabels = ["Red", "Blue", "Green", "Black", "Open"]
         for c in range(5):
-            button = Button(self.f4, text=buttonLabels[c])
+            button = Button(self.f4, text=buttonLabels[c],
+                            name=text = buttonLabels[c],
+                                        command = self.buttonhandler)
             button.pack(side=LEFT, fill=BOTH, expand=TRUE)
 
+        self.label1.bind("<Button-1>", self.mousehandler)
+        self.label2.bind("<Button-1>", self.mousehandler)
 
-        # event handler for mouse click
-        def mousehandler(event):
-            print("{0} was clicked at x:{1} and y:{2}".format(
-                str(event.widget)[1:8], event.x, event.y))
-            return "break"
 
-        self.label1.bind("<Button-1>", mousehandler)
-        self.label2.bind("<Button-1>", mousehandler)
+    # ButtonHandler
+    def buttonhandler(self):
+        print("button {0} was clicked".format())
+        return "break"
+
+
+    # event handler for mouse click
+    def mousehandler(self, event):
+        print("{0} was clicked at x:{1} and y:{2}".format(
+            str(event.widget)[1:8], event.x, event.y))
+        return "break"
 
 
 root = Tk()
