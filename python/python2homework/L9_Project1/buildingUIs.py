@@ -38,6 +38,10 @@ ALL = N + S + W + E
 
 class Application(Frame):
     def __init__(self, master=None):
+        """
+        init setups the complete ui with all frames - consider refactoring
+        and extracting to separate methods
+        """
         Frame.__init__(self, master)
         self.master.rowconfigure(0, weight=1)
         self.master.rowconfigure(1, weight=1)
@@ -68,11 +72,11 @@ class Application(Frame):
         self.f3 = Frame(master, bg="green", name="frame _3")
         self.f3.grid(row=0, column=2, rowspan=3, columnspan=3, sticky=ALL)
 
-        #using pack manager inside the frame for the label
+        # using pack manager inside the frame for the entry and text widget
         self.entryfield = Entry(self.f3)
         self.textdisplay = Text(self.f3, state=DISABLED)
-        self.entryfield.pack(side=TOP, fill=BOTH, expand=True)
-        self.textdisplay.pack(side=TOP, fill=BOTH, expand=True)
+        self.entryfield.pack(side=TOP, fill=X)
+        self.textdisplay.pack(side=BOTTOM, fill=BOTH, expand=True)
 
         #Frame 4 for the buttons
         self.f4 = Frame(master, bg="white", name="frame_4")
@@ -81,9 +85,9 @@ class Application(Frame):
         buttonLabels = ["Red", "Blue", "Green", "Black", "Open"]
         for c in range(5):
             button = Button(self.f4, text=buttonLabels[c],
-                            name=text = buttonLabels[c],
-                                        command = self.buttonhandler)
-            button.pack(side=LEFT, fill=BOTH, expand=TRUE)
+                            name=buttonLabels[c].lower(), command=
+                self.buttonhandler)
+            button.pack(side=LEFT, fill=X, expand=TRUE)
 
         self.label1.bind("<Button-1>", self.mousehandler)
         self.label2.bind("<Button-1>", self.mousehandler)
@@ -91,7 +95,7 @@ class Application(Frame):
 
     # ButtonHandler
     def buttonhandler(self):
-        print("button {0} was clicked".format())
+        print("button {0} was clicked".format(self._name))
         return "break"
 
 
