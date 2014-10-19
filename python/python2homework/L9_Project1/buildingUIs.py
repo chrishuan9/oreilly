@@ -1,4 +1,7 @@
 __author__ = 'chris'
+import os
+import logging
+
 """
 Starting with the project you created at the end of the last lesson,
 add components to the existing framework so that:
@@ -49,7 +52,6 @@ class Application(Frame):
         self.master.columnconfigure(2, weight=3)
         self.grid(sticky=ALL)
 
-
         # Frame1
         self.f1 = Frame(master, bg="red", name="frame_1")
         self.f1.grid(row=0, column=0, rowspan=1, columnspan=2, sticky=ALL)
@@ -74,28 +76,75 @@ class Application(Frame):
 
         # using pack manager inside the frame for the entry and text widget
         self.entryfield = Entry(self.f3)
-        self.textdisplay = Text(self.f3, state=DISABLED)
+        self.textdisplay = Text(self.f3, state=DISABLED, wrap=WORD, )
         self.entryfield.pack(side=TOP, fill=X)
         self.textdisplay.pack(side=BOTTOM, fill=BOTH, expand=True)
+
+        # Writing text requires the widget to be in an active state
+        self.textdisplay.configure(state=NORMAL)
+        self.textdisplay.insert(INSERT, "NO FILE LOADED")
+        self.textdisplay.configure(state=DISABLED)
 
         #Frame 4 for the buttons
         self.f4 = Frame(master, bg="white", name="frame_4")
         self.f4.grid(row=2, column=0, rowspan=1, columnspan=5, sticky=ALL)
+
         #Buttons
-        buttonLabels = ["Red", "Blue", "Green", "Black", "Open"]
-        for c in range(5):
-            button = Button(self.f4, text=buttonLabels[c],
-                            name=buttonLabels[c].lower(), command=
-                self.buttonhandler)
-            button.pack(side=LEFT, fill=X, expand=TRUE)
+        bred = Button(self.f4, text="Red", command=self.bredhandler)
+        bblue = Button(self.f4, text="Blue", command=self.bbluehandler)
+        bgreen = Button(self.f4, text="Green", command=self.bgreenhandler)
+        bblack = Button(self.f4, text="Black", command=self.bblackhandler)
+        bopen = Button(self.f4, text="Open", command=self.bopenhandler)
+
+        bred.pack(side=LEFT, fill=X, expand=TRUE)
+        bblue.pack(side=LEFT, fill=X, expand=TRUE)
+        bgreen.pack(side=LEFT, fill=X, expand=TRUE)
+        bblack.pack(side=LEFT, fill=X, expand=TRUE)
+        bopen.pack(side=LEFT, fill=X, expand=TRUE)
 
         self.label1.bind("<Button-1>", self.mousehandler)
         self.label2.bind("<Button-1>", self.mousehandler)
 
 
     # ButtonHandler
-    def buttonhandler(self):
-        print("button {0} was clicked".format(self._name))
+    def bredhandler(self):
+        self.textdisplay.configure(fg="red")
+        return "break"
+
+    def bbluehandler(self):
+        self.textdisplay.configure(fg="blue")
+        return "break"
+
+    def bgreenhandler(self):
+        self.textdisplay.configure(fg="green")
+        return "break"
+
+    def bblackhandler(self):
+        self.textdisplay.configure(fg="black")
+        return "break"
+
+    def bopenhandler(self):
+        self.textdisplay.configure(state=NORMAL)
+        # {Line}.{Column} where Line count starts at 1 and
+        # column count at 0
+        self.textdisplay.delete(1.0, END)
+        self.textdisplay.insert(INSERT, "LOADING FILE")
+        self.textdisplay.configure(state=DISABLED)
+        filename = self.entryfield.get()
+
+        # tries to read file from current directory
+        try:
+            fi = open(filename, 'r')
+            textToShow = fi.read()
+            self.textdisplay.configure(state=NORMAL)
+            self.textdisplay.delete(1.0, END)
+            self.textdisplay.insert(INSERT, textToShow)
+            self.textdisplay.configure(state=DISABLED)
+        except FileNotFoundError:
+            self.textdisplay.configure(state=NORMAL)
+            self.textdisplay.delete(1.0, END)
+            self.textdisplay.insert(INSERT, "*** File Not Found ***")
+            self.textdisplay.configure(state=DISABLED)
         return "break"
 
 
