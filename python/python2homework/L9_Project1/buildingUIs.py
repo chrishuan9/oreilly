@@ -51,7 +51,7 @@ class Application(Frame):
         master.columnconfigure(4, weight=3)
 
         # ############################################################### Frame1
-        self.f1 = Frame(master, bg="red", name="frame_1", width=0)
+        self.f1 = Frame(master, bg="red", name="frame_1", width=0, height=0)
         self.f1.grid(row=0, column=0, rowspan=1, columnspan=2, sticky=ALL)
 
         self.f1.rowconfigure(0, weight=1)
@@ -66,7 +66,7 @@ class Application(Frame):
 
 
         ################################################################# Frame2
-        self.f2 = Frame(master, bg="blue", name="frame_2", width=0)
+        self.f2 = Frame(master, bg="blue", name="frame_2", width=0, height=0)
         self.f2.grid(row=1, column=0, rowspan=1, columnspan=2, sticky=ALL)
 
         #using pack manager inside the frame for the label
@@ -88,7 +88,7 @@ class Application(Frame):
 
         # ############################################################### Frame3
         # uses grid geometry manager
-        self.f3 = Frame(master, name="frame _3")
+        self.f3 = Frame(master, name="frame _3", width=0, height=0)
         self.f3.grid(row=0, column=2, rowspan=2, columnspan=3, sticky=ALL)
 
         # ensures that the textdisplay field is maximized while the entry
@@ -100,9 +100,9 @@ class Application(Frame):
         self.f3.columnconfigure(2, weight=1)
 
         # entry and text field
-        self.entryfield = Entry(self.f3)
+        self.entryfield = Entry(self.f3, width=0)
         self.entryfield.grid(row=0, column=0, columnspan=3, sticky=W + E)
-        self.textdisplay = Text(self.f3, state=DISABLED, wrap=WORD)
+        self.textdisplay = Text(self.f3, state=DISABLED, wrap=WORD, width=0)
         self.textdisplay.grid(row=1, column=0, columnspan=3, sticky=ALL)
 
         # adding buttons on the last row of Frame 3
