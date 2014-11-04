@@ -41,52 +41,57 @@ ALL = N + S + W + E
 
 class Application(Frame):
     def __init__(self, master=None):
-        """
-        init setups the complete ui with all frames - consider refactoring
-        and extracting to separate methods
-        """
         Frame.__init__(self, master)
-        self.master.rowconfigure(0, weight=1)
-        self.master.rowconfigure(1, weight=1)
-        self.master.columnconfigure(0, weight=2)
-        self.master.columnconfigure(2, weight=3)
-        self.grid(sticky=ALL)
+        master.rowconfigure(0, weight=1)
+        master.rowconfigure(1, weight=1)
+        master.columnconfigure(0, weight=2)
+        master.columnconfigure(1, weight=2)
+        master.columnconfigure(2, weight=2)
+        master.columnconfigure(3, weight=3)
+        master.columnconfigure(3, weight=3)
 
-        # #################################################################### Frame1
+        # ############################################################### Frame1
         self.f1 = Frame(master, bg="red", name="frame_1")
         self.f1.grid(row=0, column=0, rowspan=1, columnspan=2, sticky=ALL)
 
         #using pack manager inside the frame for the label
+        # self.label1 = Label(self.f1, text="Frame 1", bg="red")
+        #self.label1.pack(fill=BOTH, expand=True)
+
         self.label1 = Label(self.f1, text="Frame 1", bg="red")
-        self.label1.pack(fill=BOTH, expand=True)
+        self.label1.grid(row=0, column=0, columnspan=2, sticky=ALL)
 
 
-        ##################################################################### Frame2
+        ################################################################# Frame2
         self.f2 = Frame(master, bg="blue", name="frame_2")
         self.f2.grid(row=1, column=0, rowspan=1, columnspan=2, sticky=ALL)
 
         #using pack manager inside the frame for the label
         self.label2 = Label(self.f2, text="Frame 2", bg="blue")
         self.label2.grid(row=0, column=0, columnspan=2, sticky=ALL)
+
+        # frame f2 should be given priority over buttons
         self.f2.rowconfigure(0, weight=1)
         self.f2.rowconfigure(1, weight=0)
+        #
         self.f2.columnconfigure(0, weight=1)
         self.f2.columnconfigure(1, weight=1)
 
-        bred = Button(self.f2, text="Red", command=self.bredhandler)
-        bblue = Button(self.f2, text="Blue", command=self.bbluehandler)
+        self.bred = Button(self.f2, text="Red", command=self.bredhandler)
+        self.bblue = Button(self.f2, text="Blue", command=self.bbluehandler)
 
-        bred.grid(row=1, column=0, sticky=W + E)
-        bblue.grid(row=1, column=1, sticky=W + E)
+        self.bred.grid(row=1, column=0, sticky=W + E)
+        self.bblue.grid(row=1, column=1, sticky=W + E)
 
-        # #################################################################### Frame3
+        # ############################################################### Frame3
         # uses grid geometry manager
         self.f3 = Frame(master, name="frame _3")
-        self.f3.grid(row=0, column=2, rowspan=3, columnspan=3, sticky=ALL)
+        self.f3.grid(row=0, column=2, rowspan=2, columnspan=3, sticky=ALL)
 
         # ensures that the textdisplay field is maximized while the entry
         # and button row are kept at their minimum size
         self.f3.rowconfigure(1, weight=1)
+        #distribute columns evenly
         self.f3.columnconfigure(0, weight=1)
         self.f3.columnconfigure(1, weight=1)
         self.f3.columnconfigure(2, weight=1)
@@ -104,7 +109,7 @@ class Application(Frame):
 
         self.bgreen.grid(row=2, column=0, sticky=W + E)
         self.bblack.grid(row=2, column=1, sticky=W + E)
-        self.bopen.grid(row=2, column=2, sticky=W +E)
+        self.bopen.grid(row=2, column=2, sticky=W + E)
 
 
         # Writing text requires the widget to be in an active state
@@ -118,7 +123,7 @@ class Application(Frame):
         self.label2.bind("<Button-1>", self.mousehandler)
 
 
-    ##################################################################### ButtonHandlers
+    ############################################################# ButtonHandlers
     def bredhandler(self):
         self.textdisplay.configure(fg="red")
         return "break"
@@ -160,7 +165,7 @@ class Application(Frame):
         return "break"
 
 
-    ##################################################################### event handler for mouse clicks in Frame 1/2
+    ################################ event handler for mouse clicks in Frame 1/2
     def mousehandler(self, event):
         print("{0} was clicked at x:{1} and y:{2}".format(
             str(event.widget)[1:8], event.x, event.y))
