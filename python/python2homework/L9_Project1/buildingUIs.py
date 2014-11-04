@@ -48,11 +48,14 @@ class Application(Frame):
         master.columnconfigure(1, weight=2)
         master.columnconfigure(2, weight=2)
         master.columnconfigure(3, weight=3)
-        master.columnconfigure(3, weight=3)
+        master.columnconfigure(4, weight=3)
 
         # ############################################################### Frame1
-        self.f1 = Frame(master, bg="red", name="frame_1")
+        self.f1 = Frame(master, bg="red", name="frame_1", width=0)
         self.f1.grid(row=0, column=0, rowspan=1, columnspan=2, sticky=ALL)
+
+        self.f1.rowconfigure(0, weight=1)
+        self.f1.columnconfigure(0, weight=1)
 
         #using pack manager inside the frame for the label
         # self.label1 = Label(self.f1, text="Frame 1", bg="red")
@@ -63,14 +66,14 @@ class Application(Frame):
 
 
         ################################################################# Frame2
-        self.f2 = Frame(master, bg="blue", name="frame_2")
+        self.f2 = Frame(master, bg="blue", name="frame_2", width=0)
         self.f2.grid(row=1, column=0, rowspan=1, columnspan=2, sticky=ALL)
 
         #using pack manager inside the frame for the label
         self.label2 = Label(self.f2, text="Frame 2", bg="blue")
         self.label2.grid(row=0, column=0, columnspan=2, sticky=ALL)
 
-        # frame f2 should be given priority over buttons
+        # label frame_2 should be given priority over buttons
         self.f2.rowconfigure(0, weight=1)
         self.f2.rowconfigure(1, weight=0)
         #
