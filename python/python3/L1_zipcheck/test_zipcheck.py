@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
 
     def test_zip_errors(self):
         "Test ensuring errors in data cause validation failures"
-        pass
+        raise TypeError("No test yet present.")
     
     def test_zip_success(self):
         "Test ensuring that valid data passes"
