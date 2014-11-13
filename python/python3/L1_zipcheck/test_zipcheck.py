@@ -13,11 +13,16 @@ class Test(unittest.TestCase):
 
     def test_zip_errors(self):
         "Test ensuring errors in data cause validation failures"
-        raise TypeError("No test yet present.")
+        self.assertIsNotNone(zip_errors("1234"),"Accepting length 4")
+        self.assertIsNotNone(zip_errors("12345-678"),"Accepting length 9")
+        self.assertIsNotNone(zip_errors("1234e"),"Accepting alphabetic 5")
+        self.assertIsNotNone(zip_errors("12345-678Y"),"Accepting alphabetic 5+4")
+        self.assertIsNotNone(zip_errors("12345/6789"),"Accepting non-hyphen")
     
     def test_zip_success(self):
         "Test ensuring that valid data passes"
-        pass
+        self.assertIsNone(zip_errors("12345"),"Not accepting 5-digit zips")
+        self.assertIsNone(zip_errors("12345-6789"),"Not accepting 9-digit zips")
 
 
 if __name__ == "__main__":
